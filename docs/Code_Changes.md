@@ -904,6 +904,8 @@ namespace GraveSDK.Utils
 - [x] TechRepository - Full implementation
 - [x] NPCRepository - Full implementation
 - [x] UIRepository - Full implementation
+- [x] PlayerRepository - Full implementation
+- [x] EnvironmentRepository - Full implementation
 - [ ] LocalizationRepository - To implement
 
 ### Phase 3: Harmony Hooks
@@ -991,5 +993,8 @@ To successfully build the SDK, the following assemblies must be referenced:
 ### 10.5 Enum Casting
 Since the SDK defines its own type-safe enums (`ItemType`, `CraftType`), explicit casts are required when mapping from the native game enums:
 ```csharp
-Type = (GraveSDK.Data.Models.ItemType)def.type;
+### 10.6 Player Money & Data
+Player money is not stored directly in `GameSave`. Instead, it is a property on the `Item` object stored in `WorldGameObject.data`. 
+- **Access**: `MainGame.me.player.data.money`
+- **Type**: `float` (representing bronze as the decimal part)
 ```
