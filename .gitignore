@@ -1,0 +1,44 @@
+# Build artifacts
+*.dll
+*.pdb
+*.exe
+*.zip
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.userprefs
+.DS_Store
+Thumbs.db
+
+# BepInEx
+BepInEx/
+
+# Unity temp
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Backups
+*.backup
+*.bak
+
+# Ignore GameSource except our documentation
+GameSource/*
+!GameSource/AssembleCSharp/Assembly-CSharp/ItemDefinition.cs
+!GameSource/AssembleCSharp/Assembly-CSharp/CraftDefinition.cs
+!GameSource/AssembleCSharp/Assembly-CSharp/BuffDefinition.cs
+!GameSource/AssembleCSharp/Assembly-CSharp/Localization.cs
+!GameSource/AssembleCSharp/Assembly-CSharp/MainGame.cs
+!GameSource/AssembleCSharp/Assembly-CSharp/GameBalance.cs
