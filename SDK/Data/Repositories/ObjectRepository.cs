@@ -47,7 +47,7 @@ namespace GraveSDK.Data.Repositories
                 IsNPC = def.IsNPC(),
                 IsMob = def.IsMob(),
                 CustomIcon = def.custom_icon,
-                Groups = new List<string>(def.object_groups.Select(g => g.id))
+                Groups = def.object_groups != null ? new List<string>(def.object_groups.Select(g => g.id)) : new List<string>()
             };
         }
 

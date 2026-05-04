@@ -38,15 +38,26 @@ namespace GraveSDK.Data.Repositories
 
         private BuffModel ConvertToModel(BuffDefinition def)
         {
+            float duration = 0f;
+            try
+            {
+                // SmartExpressions can sometimes throw if evaluated without proper context
+                duration = def.length?.EvaluateFloat(MainGame.me?.player, MainGame.me?.player) ?? 0f;
+            }
+            catch
+            {
+                duration = 0f;
+            }
+
             return new BuffModel
             {
                 Id = def.id,
-                DisplayName = def.GetLocalizedName(),
-                Description = def.GetDescriptionIfExists(),
-                Duration = def.length?.EvaluateFloat(null, null) ?? 0f,
+                DisplayName = def.GetLocalizedName() ?? def.id,
+                Description = def.GetDescriptionIfExists() ?? "",
+                Duration = duration,
                 IsHidden = def.is_hidden,
                 ResourceEffects = ConvertGameRes(def.res),
-                CustomIcon = def.GetIconName(),
+                CustomIcon = def.GetIconName() ?? "",
                 TickPeriod = def.tick_period,
                 DoNotShowTimer = def.do_not_show_timer,
                 CraftQualityBonus = def.craft_q,

@@ -46,7 +46,7 @@ namespace GraveSDK.Data.Repositories
                 CustomHeadSprite = def.custom_head_spr,
                 IsInNPCList = def.npc_in_list,
                 IsRelationVisible = def.IsRelationVisible(),
-                Groups = new List<string>(def.object_groups.Select(g => g.id))
+                Groups = def.object_groups != null ? new List<string>(def.object_groups.Select(g => g.id)) : new List<string>()
             };
         }
 
