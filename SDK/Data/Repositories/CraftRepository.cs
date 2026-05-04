@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using GraveSDK.Data.Models;
 
 namespace GraveSDK.Data.Repositories
 {
@@ -133,8 +134,8 @@ namespace GraveSDK.Data.Repositories
                 TimeCost = GetTimeCost(def),
                 GratitudePointsCost = GetGratitudePointsCost(def),
                 TabId = def.tab_id,
-                CraftType = def.craft_type,
-                SubType = def.sub_type,
+                CraftType = (GraveSDK.Data.Models.CraftType)def.craft_type,
+                SubType = (GraveSDK.Data.Models.CraftSubType)def.sub_type,
                 CanCraftMultiple = def.CanCraftMultiple()
             };
         }

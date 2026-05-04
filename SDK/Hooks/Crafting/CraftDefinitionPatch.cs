@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
 using UnityEngine;
+using GraveSDK.Utils;
+using GraveSDK.Data.Models;
 
 namespace GraveSDK.Hooks.Crafting
 {
@@ -34,7 +36,7 @@ namespace GraveSDK.Hooks.Crafting
             }
 
             // Auto-unlock specific craft types
-            if (ModConfig.AutoUnlockCraftTypes.Contains(__instance.craft_type))
+            if (ModConfig.AutoUnlockCraftTypes.Contains((GraveSDK.Data.Models.CraftType)__instance.craft_type))
             {
                 __result = false;
             }
@@ -97,7 +99,9 @@ namespace GraveSDK.Hooks.Crafting
             // Use custom craft time if configured
             if (ModConfig.CustomCraftTimes.TryGetValue(__instance.id, out float customTime))
             {
-                __result = new SmartExpression { constantValue = customTime };
+                var expr = new SmartExpression();
+                expr.FromString(customTime.ToString(System.Globalization.CultureInfo.InvariantCulture));
+                __result = expr;
                 return false;
             }
 
@@ -107,7 +111,7 @@ namespace GraveSDK.Hooks.Crafting
             {
                 var expr = new SmartExpression();
                 // Clone and modify expression
-                expr.SetString(__instance.craft_time.GetString() + $" / {ModConfig.GlobalCraftSpeedMultiplier}");
+                expr.FromString(__instance.craft_time.GetRawExpressionString() + $" / {ModConfig.GlobalCraftSpeedMultiplier.ToString(System.Globalization.CultureInfo.InvariantCulture)}");
                 __result = expr;
                 return false;
             }

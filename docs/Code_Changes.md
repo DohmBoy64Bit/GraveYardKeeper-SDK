@@ -352,7 +352,7 @@ namespace GraveSDK.Data.Repositories
                 Id = def.id,
                 DisplayName = def.GetItemName(true),
                 Description = def.GetItemDescription(),
-                Type = def.type,
+                Type = (GraveSDK.Data.Models.ItemType)def.type,
                 Quality = def.quality,
                 StackCount = def.stack_count,
                 HasDurability = def.has_durability,
@@ -366,7 +366,10 @@ namespace GraveSDK.Data.Repositories
         
         public List<ItemModel> GetAllItems()
         {
-            return GameBalance.me.item_data
+            if (GameBalance.me?.items_data == null)
+                return new List<ItemModel>();
+
+            return GameBalance.me.items_data
                 .Select(d => GetItem(d.id))
                 .Where(i => i != null)
                 .ToList();
@@ -403,7 +406,9 @@ namespace GraveSDK.Data.Repositories
                 IsLocked = def.IsLocked(),
                 CanAutoCraft = def.is_auto,
                 EnergyCost = GetEnergyCost(def),
-                TimeCost = GetTimeCost(def)
+                TimeCost = GetTimeCost(def),
+                CraftType = (GraveSDK.Data.Models.CraftType)def.craft_type,
+                SubType = (GraveSDK.Data.Models.CraftSubType)def.sub_type
             };
         }
         
@@ -889,14 +894,21 @@ namespace GraveSDK.Utils
 - ✅ Basic wrapper classes outlined
 
 ### Phase 2: Core Wrappers
-- [ ] ItemRepository - Full implementation
-- [ ] CraftRepository - Full implementation  
-- [ ] BuffRepository - To implement
+- [x] ItemRepository - Full implementation
+- [x] CraftRepository - Full implementation  
+- [x] BuffRepository - Full implementation
+- [x] PerkRepository - Full implementation
+- [x] VendorRepository - Full implementation
+- [x] ObjectRepository - Full implementation
+- [x] QuestRepository - Full implementation
+- [x] TechRepository - Full implementation
+- [x] NPCRepository - Full implementation
+- [x] UIRepository - Full implementation
 - [ ] LocalizationRepository - To implement
 
 ### Phase 3: Harmony Hooks
-- [ ] Item use patches
-- [ ] Craft unlock patches
+- [x] Item description patches
+- [x] Craft unlock patches
 - [ ] Localization patches
 - [ ] UI event patches
 
@@ -946,3 +958,38 @@ namespace GraveSDK.Utils
 
 *SDK Architecture Documentation*
 *Generated: 2026-05-04*
+
+---
+
+## 10. Build Fixes & API Alignments (2026-05-04)
+
+During the initial build process, several mismatches between the proposed architecture and the actual game code were identified and fixed.
+
+### 10.1 GameBalance Field Names
+The game uses `items_data` instead of `item_data` in the `GameBalance` class. All repository code has been updated to reflect this.
+
+### 10.2 SmartExpression API
+The `SmartExpression` class in the game does not allow direct property assignment for string expressions. It must be initialized using `FromString()`:
+```csharp
+var expr = new SmartExpression();
+expr.FromString("expression_string");
+```
+And the raw string can be retrieved using `GetRawExpressionString()`.
+
+### 10.3 GameState & Flags
+The global `GameState` class was not present in the managed assemblies. Instead, game flags and parameters are accessed via the player object:
+```csharp
+bool hasFlag = MainGame.me.player.GetParamInt(flagId) > 0;
+```
+
+### 10.4 Assembly Dependencies
+To successfully build the SDK, the following assemblies must be referenced:
+- `Assembly-CSharp-firstpass.dll`: Contains NGUI and core utility classes (`SmartExpression`, `NGUIText`).
+- `UnityEngine.InputLegacyModule.dll`: Required for `UnityEngine.Input` access in Unity 2019+ (Grave Keeper uses this module).
+- `UnityEngine.IMGUIModule.dll`: Required for the Mod Menu UI.
+
+### 10.5 Enum Casting
+Since the SDK defines its own type-safe enums (`ItemType`, `CraftType`), explicit casts are required when mapping from the native game enums:
+```csharp
+Type = (GraveSDK.Data.Models.ItemType)def.type;
+```

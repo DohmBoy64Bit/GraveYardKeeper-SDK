@@ -26,48 +26,6 @@ namespace GraveSDK.Data.Models
         public bool IsEquipment { get; set; }
     }
 
-    /// <summary>
-    /// Type-safe model for crafting recipes
-    /// </summary>
-    public class CraftModel
-    {
-        public string Id { get; set; }
-        public string DisplayName { get; set; }
-        public List<CraftIngredient> Needs { get; set; }
-        public List<CraftResult> Output { get; set; }
-        public float Difficulty { get; set; }
-        public List<string> RequiredPerks { get; set; }
-        public List<string> LinkedBuffs { get; set; }
-        public bool IsLocked { get; set; }
-        public bool NeedsUnlock { get; set; }
-        public bool CanAutoCraft { get; set; }
-        public bool IsAuto { get; set; }
-        public float EnergyCost { get; set; }
-        public float TimeCost { get; set; }
-        public float GratitudePointsCost { get; set; }
-        public string TabId { get; set; }
-        public CraftType CraftType { get; set; }
-        public CraftSubType SubType { get; set; }
-        public bool CanCraftMultiple { get; set; }
-    }
-
-    /// <summary>
-    /// Type-safe model for buffs/status effects
-    /// </summary>
-    public class BuffModel
-    {
-        public string Id { get; set; }
-        public string DisplayName { get; set; }
-        public string Description { get; set; }
-        public float Duration { get; set; }
-        public bool IsHidden { get; set; }
-        public Dictionary<string, float> ResourceEffects { get; set; }
-        public string CustomIcon { get; set; }
-        public float TickPeriod { get; set; }
-        public bool DoNotShowTimer { get; set; }
-        public float CraftQualityBonus { get; set; }
-        public BuffOverlayType OverlayType { get; set; }
-    }
 
     /// <summary>
     /// Craft recipe ingredient

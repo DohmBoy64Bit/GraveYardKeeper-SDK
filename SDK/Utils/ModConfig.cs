@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
+using GraveSDK.Data.Models;
 
 namespace GraveSDK.Utils
 {
@@ -309,7 +311,9 @@ namespace GraveSDK.Utils
 
         public bool IsUnlocked()
         {
-            return GameState.HasFlag(FlagId) == RequiredValue;
+            if (MainGame.me?.player == null) return false;
+            bool hasFlag = MainGame.me.player.GetParamInt(FlagId) > 0;
+            return hasFlag == RequiredValue;
         }
 
         public string GetDescription()

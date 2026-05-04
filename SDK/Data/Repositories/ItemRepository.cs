@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using GraveSDK.Data.Models;
 
 namespace GraveSDK.Data.Repositories
 {
@@ -44,10 +45,10 @@ namespace GraveSDK.Data.Repositories
         /// </summary>
         public List<ItemModel> GetAllItems()
         {
-            if (GameBalance.me?.item_data == null)
+            if (GameBalance.me?.items_data == null)
                 return new List<ItemModel>();
 
-            return GameBalance.me.item_data
+            return GameBalance.me.items_data
                 .Select(d => GetItem(d.id))
                 .Where(m => m != null)
                 .ToList();
@@ -126,14 +127,14 @@ namespace GraveSDK.Data.Repositories
                 Id = def.id,
                 DisplayName = def.GetItemName(true),
                 Description = def.GetItemDescription(null),
-                Type = def.type,
+                Type = (GraveSDK.Data.Models.ItemType)def.type,
                 Quality = def.quality,
                 StackCount = def.stack_count,
                 BasePrice = def.base_price,
                 HasDurability = def.has_durability,
                 DurabilityDecrease = def.durability_decrease,
                 Parameters = ConvertGameRes(def.parameters),
-                OnUseEffects = def.on_use_expressions?\u003Cstring\u003E.\u003Cstring\u003ESelect(e => e.GetRawExpressionString())
+                OnUseEffects = def.on_use_expressions?.Select(e => e.GetRawExpressionString())
                     ?.ToList() ?? new List<string>(),
                 CanBeUsed = def.can_be_used,
                 IsTool = def.is_tool,

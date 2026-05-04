@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Reflection;
 using HarmonyLib;
 using UnityEngine;
+using GraveSDK.Utils;
+using GraveSDK.Data.Models;
 
 namespace GraveSDK.Hooks.Inventory
 {
