@@ -87,5 +87,74 @@ namespace GraveSDK.Data.Repositories
             if (MainGame.me?.save?.quests == null) return false;
             return MainGame.me.save.quests.IsQuestCurrent(questId);
         }
+
+        /// <summary>
+        /// Checks if a quest has been completed successfully.
+        /// </summary>
+        public bool IsCompleted(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return false;
+            return MainGame.me.save.quests.IsQuestSucced(questId);
+        }
+
+        /// <summary>
+        /// Checks if a quest has been failed.
+        /// </summary>
+        public bool IsFailed(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return false;
+            return MainGame.me.save.quests.IsQuestFaild(questId);
+        }
+
+        /// <summary>
+        /// Starts a quest by its definition ID. The quest must exist in GameBalance.
+        /// </summary>
+        public void StartQuest(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return;
+            var def = GameBalance.me?.GetDataOrNull<QuestDefinition>(questId);
+            if (def != null)
+            {
+                MainGame.me.save.quests.StartQuest(def);
+            }
+        }
+
+        /// <summary>
+        /// Forces a quest to be marked as failed in the current save.
+        /// </summary>
+        public void ForceFail(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return;
+            MainGame.me.save.quests.ForceQuestEnd(questId, false);
+        }
+
+        /// <summary>
+        /// Triggers quest system key checks. Many quests listen for specific
+        /// key strings (e.g., "end_of_day", "interact_gerry", "quest_finished").
+        /// This allows mods to trigger quest progression with custom keys.
+        /// </summary>
+        public void CheckKey(string key)
+        {
+            if (MainGame.me?.save?.quests == null) return;
+            MainGame.me.save.quests.CheckKeyQuests(key);
+        }
+
+        /// <summary>
+        /// Gets all currently active quests as QuestState objects.
+        /// </summary>
+        public List<QuestState> GetCurrentQuests()
+        {
+            if (MainGame.me?.save?.quests == null) return new List<QuestState>();
+            return MainGame.me.save.quests.GetCurrentQuests();
+        }
+
+        /// <summary>
+        /// Checks if a quest was ever executed (started at least once).
+        /// </summary>
+        public bool WasEverStarted(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return false;
+            return MainGame.me.save.quests.CheckIfQuestWasExecuted(questId);
+        }
     }
 }

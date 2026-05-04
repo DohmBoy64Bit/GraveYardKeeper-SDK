@@ -211,7 +211,13 @@ For issues or questions, please open a GitHub issue.
 
 *Generated from decompiled source code analysis*
 *Source: Graveyard Keeper v1.0+*
-*SDK Version: v1.2 (Feature Expansion)*
+*SDK Version: v1.3 (Reactive Framework)*
+
+## v1.3 Highlights:
+- **Interaction System**: Add/remove custom interaction events and callbacks on any WorldGameObject.
+- **Game Event Bus**: Subscribe to game lifecycle events (day change, craft complete, save/load, death) without polling.
+- **Economy Overhaul**: Create entirely new merchants, manipulate vendor tiers, money, and global item pricing.
+- **Advanced Quests**: Start/fail quests programmatically, trigger quest keys, and query quest history.
 
 ## v1.2 Highlights:
 - **Dialogue System**: Full control over NPC speech, player choices, and cinematic messages.

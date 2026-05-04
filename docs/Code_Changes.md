@@ -1,7 +1,7 @@
 # Graveyard Keeper SDK Architecture & Code Changes
 
 ## Last Updated
-2026-05-04 (v1.2 Feature Expansion)
+2026-05-04 (v1.3 Reactive Framework)
 
 ## Overview
 This document describes the proposed C# SDK/Mod Menu foundation architecture, built using Separation of Concerns (SoC) principles. All code is designed as wrapper classes and Harmony patches - **never modifying base game code directly**.
@@ -444,6 +444,18 @@ Controls cinematic effects including screen shake, fades, letterboxing, and 100+
 ### 2.14 Worker Repository
 **Location:** `SDK/Data/Repositories/WorkerRepository.cs`
 Specialized management for zombies and workers, including efficiency adjustment and item/WGO transformation.
+
+### 2.15 Interaction Repository
+**Location:** `SDK/Data/Repositories/InteractionRepository.cs`
+Custom interaction system allowing modders to add/remove interaction events on WGOs, fire game events, and register custom callbacks.
+
+### 2.16 Game Event Repository
+**Location:** `SDK/Data/Repositories/GameEventRepository.cs`
+Reactive event bus providing C# events for game lifecycle (OnDayChanged, OnPlayerInteract, OnCraftCompleted, OnGameSaved, OnPlayerDied, OnGameTick).
+
+### 2.17 Economy Repository
+**Location:** `SDK/Data/Repositories/EconomyRepository.cs`
+Full vendor/economy management including creating new VendorDefinitions, manipulating vendor tiers, money, inventory, and global item pricing.
 
 ---
 
