@@ -2,6 +2,7 @@ using BepInEx;
 using BepInEx.Unity.Mono;
 using HarmonyLib;
 using GraveSDK.UI.ModMenu;
+using GraveSDK.Tools;
 using UnityEngine;
 
 namespace GraveSDK.Core
@@ -20,6 +21,9 @@ namespace GraveSDK.Core
 
             // Setup Mod Menu
             ModMenuManager.Initialize();
+
+            // Attach GameData Dumper (F10 to dump)
+            gameObject.AddComponent<GameDataDumper>();
 
             // Load external mods
             ModLoader.LoadMods();
