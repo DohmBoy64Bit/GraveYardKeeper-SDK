@@ -1,0 +1,2392 @@
+{
+  "type": "spawners",
+  "count": 169,
+  "data": [
+    {
+      "spawner_id": "tutorial_slime",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "tutorial_slime"
+    },
+    {
+      "spawner_id": "bat_test",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": "bat_remove"
+        }
+      ],
+      "id": "bat_test"
+    },
+    {
+      "spawner_id": "slime_test",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": "slime_remove"
+        }
+      ],
+      "id": "slime_test"
+    },
+    {
+      "spawner_id": "ev_28_golem_1",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "golem_ev_28",
+          "weight": 1,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "ev_28_golem_1"
+    },
+    {
+      "spawner_id": "ev_28_golem_2",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "golem_ev_28_2",
+          "weight": 1,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "ev_28_golem_2"
+    },
+    {
+      "spawner_id": "ev_28_golem_blue",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "golem_ev_28_blue",
+          "weight": 1,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "ev_28_golem_blue"
+    },
+    {
+      "spawner_id": "ev_28_golem_red",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "golem_ev_28_red",
+          "weight": 1,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "ev_28_golem_red"
+    },
+    {
+      "spawner_id": "bat_test",
+      "dungeon_level": 1,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_test_1"
+    },
+    {
+      "spawner_id": "bat_test",
+      "dungeon_level": 2,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_test_2"
+    },
+    {
+      "spawner_id": "bat_test",
+      "dungeon_level": 3,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_test_3"
+    },
+    {
+      "spawner_id": "bat_test",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_test_4"
+    },
+    {
+      "spawner_id": "bat_test",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_test_5"
+    },
+    {
+      "spawner_id": "slime_test",
+      "dungeon_level": 1,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_test_1"
+    },
+    {
+      "spawner_id": "slime_test",
+      "dungeon_level": 2,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_test_2"
+    },
+    {
+      "spawner_id": "slime_test",
+      "dungeon_level": 3,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_test",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_test_3"
+    },
+    {
+      "spawner_id": "slime_test",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_test",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_test",
+          "weight": 1,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_test_4"
+    },
+    {
+      "spawner_id": "slime_test",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_test",
+          "weight": 1,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_test_5"
+    },
+    {
+      "spawner_id": "mob_test",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "golem",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "mob_test"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 1,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_1"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 2,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_2"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 3,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_3"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_test",
+          "weight": 5,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_4"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_5"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 6,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_6"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_7"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_blue",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_8"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_blue",
+          "weight": 5,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_9"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_10"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_11"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_12"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_13"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_14"
+    },
+    {
+      "spawner_id": "slime",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "slime_orange",
+          "weight": 5,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "slime_15"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 1,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_1"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 2,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_2"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 3,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_3"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_4"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "bat_test",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 1,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_5"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 6,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_6"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_7"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_8"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 5,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_9"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 5,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_10"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_11"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_12"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 5,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_13"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 5,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_14"
+    },
+    {
+      "spawner_id": "bat",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "fire_bat",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 5,
+          "mobs_count": 3,
+          "craft_name": ""
+        }
+      ],
+      "id": "bat_15"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 0,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 1,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "fly_mob_1"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "fly_mob_2"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 3,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_3"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_4"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_5"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 6,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_6"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_7"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_8"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_9"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_10"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_11"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_12"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_13"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_14"
+    },
+    {
+      "spawner_id": "fly_mob",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fly_mob_15"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "iron_maiden_1"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "iron_maiden_2"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 3,
+      "mobs": [],
+      "id": "iron_maiden_3"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_4"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_5"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 6,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_6"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_7"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_8"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_9"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "iron_maiden",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_10"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "iron_maiden",
+          "weight": 3,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_11"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "iron_maiden",
+          "weight": 5,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_12"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_13"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "iron_maiden",
+          "weight": 5,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_14"
+    },
+    {
+      "spawner_id": "iron_maiden",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "iron_maiden",
+          "weight": 1,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "iron_maiden_15"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "spider_1"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "spider_2"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 3,
+      "mobs": [],
+      "id": "spider_3"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 4,
+      "mobs": [],
+      "id": "spider_4"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 5,
+      "mobs": [],
+      "id": "spider_5"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 6,
+      "mobs": [],
+      "id": "spider_6"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_7"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_8"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_9"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_10"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_11"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_12"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 1,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_13"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 5,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_14"
+    },
+    {
+      "spawner_id": "spider",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "spider_15"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "golem_1"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "golem_2"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 3,
+      "mobs": [],
+      "id": "golem_3"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 4,
+      "mobs": [],
+      "id": "golem_4"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 5,
+      "mobs": [],
+      "id": "golem_5"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 6,
+      "mobs": [],
+      "id": "golem_6"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 7,
+      "mobs": [],
+      "id": "golem_7"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 8,
+      "mobs": [],
+      "id": "golem_8"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 9,
+      "mobs": [],
+      "id": "golem_9"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 10,
+      "mobs": [],
+      "id": "golem_10"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "golem",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "golem_11"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "golem",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "golem_12"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "golem_blue",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "golem_13"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "golem_blue",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "golem_14"
+    },
+    {
+      "spawner_id": "golem",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "golem_red",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "golem_15"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 1,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_1"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 2,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_2"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 3,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_3"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "slime_test",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_4"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "bat_test",
+          "weight": 15,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_5"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 6,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_6"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 15,
+          "mobs_count": 4,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_7"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_8"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "slime_blue",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_9"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 5,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_10"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_11"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 20,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_12"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 5,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_13"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_14"
+    },
+    {
+      "spawner_id": "fighting_simple",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "slime_orange",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fire_bat",
+          "weight": 20,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "fly_mob",
+          "weight": 10,
+          "mobs_count": 6,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_simple_15"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "fighting_miniboss_1"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "fighting_miniboss_2"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 3,
+      "mobs": [],
+      "id": "fighting_miniboss_3"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 4,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_4"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 5,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_5"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 6,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_6"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 7,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_7"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_8"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_9"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_10"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_11"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_12"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_13"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_14"
+    },
+    {
+      "spawner_id": "fighting_miniboss",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "iron_maiden",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "spider",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_miniboss_15"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "fighting_suicide_1"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "fighting_suicide_2"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 3,
+      "mobs": [],
+      "id": "fighting_suicide_3"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 4,
+      "mobs": [],
+      "id": "fighting_suicide_4"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 5,
+      "mobs": [],
+      "id": "fighting_suicide_5"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 6,
+      "mobs": [],
+      "id": "fighting_suicide_6"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 7,
+      "mobs": [],
+      "id": "fighting_suicide_7"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 8,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_8"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_9"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_10"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "lightning_ball",
+          "weight": 5,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_11"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_12"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_13"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        },
+        {
+          "mob_name": "lightning_ball",
+          "weight": 5,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_14"
+    },
+    {
+      "spawner_id": "fighting_suicide",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "lightning_ball",
+          "weight": 10,
+          "mobs_count": 2,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_suicide_15"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 1,
+      "mobs": [],
+      "id": "fighting_ranged_1"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 2,
+      "mobs": [],
+      "id": "fighting_ranged_2"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 3,
+      "mobs": [],
+      "id": "fighting_ranged_3"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 4,
+      "mobs": [],
+      "id": "fighting_ranged_4"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 5,
+      "mobs": [],
+      "id": "fighting_ranged_5"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 6,
+      "mobs": [],
+      "id": "fighting_ranged_6"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 7,
+      "mobs": [],
+      "id": "fighting_ranged_7"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 8,
+      "mobs": [],
+      "id": "fighting_ranged_8"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 9,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_9"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 10,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_10"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 11,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_11"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 12,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_12"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 13,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_13"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 14,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_14"
+    },
+    {
+      "spawner_id": "fighting_ranged",
+      "dungeon_level": 15,
+      "mobs": [
+        {
+          "mob_name": "slime_mask",
+          "weight": 10,
+          "mobs_count": 1,
+          "craft_name": ""
+        }
+      ],
+      "id": "fighting_ranged_15"
+    }
+  ]
+}

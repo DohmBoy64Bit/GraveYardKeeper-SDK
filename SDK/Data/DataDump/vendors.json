@@ -1,0 +1,1717 @@
+{
+  "type": "vendors",
+  "count": 31,
+  "data": [
+    {
+      "start_tire": 1,
+      "start_money": 6.0,
+      "daily_money_income": 0.1,
+      "levelup_costs": [
+        5.0,
+        10.0
+      ],
+      "count_modificators": [
+        {
+          "item_name": "whetstone",
+          "tier": 3,
+          "base_count": 2
+        }
+      ],
+      "not_buying": [
+        {
+          "item_name": "whetstone",
+          "tier": 0
+        },
+        {
+          "item_name": "chisel:chisel_1",
+          "tier": 0
+        },
+        {
+          "item_name": "chisel:chisel_2:1",
+          "tier": 0
+        },
+        {
+          "item_name": "chisel:chisel_2:2",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_1",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_metal",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_steel",
+          "tier": 0
+        },
+        {
+          "item_name": "caldron",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "1h_ore_metal",
+          "tier": 0
+        },
+        {
+          "item_name": "graphite",
+          "tier": 0
+        },
+        {
+          "item_name": "coal",
+          "tier": 0
+        },
+        {
+          "item_name": "firewood",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_blacksmith",
+      "product_types": [
+        "iron_goods",
+        "tools_bs",
+        "firewood",
+        "blessing",
+        "tools"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 1.5,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [
+        {
+          "item_name": "wheat_crop",
+          "tier": 1,
+          "base_count": 15
+        },
+        {
+          "item_name": "firewood",
+          "tier": 1,
+          "base_count": 0
+        },
+        {
+          "item_name": "wheat_seed",
+          "tier": 1,
+          "base_count": 20
+        },
+        {
+          "item_name": "wheat_crop",
+          "tier": 2,
+          "base_count": 30
+        },
+        {
+          "item_name": "wheat_seed",
+          "tier": 2,
+          "base_count": 50
+        },
+        {
+          "item_name": "wheat_crop",
+          "tier": 3,
+          "base_count": 60
+        },
+        {
+          "item_name": "wheat_seed",
+          "tier": 3,
+          "base_count": 90
+        }
+      ],
+      "not_buying": [],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_miller",
+      "product_types": [
+        "miller",
+        "firewood",
+        "blessing",
+        "hop"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 10.0,
+      "daily_money_income": 0.1,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "candle_1",
+          "tier": 0
+        },
+        {
+          "item_name": "candle_3",
+          "tier": 0
+        },
+        {
+          "item_name": "incense_1",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "snack:bread",
+          "tier": 0
+        },
+        {
+          "item_name": "b_faith:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_faith:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_faith:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_faith_money:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_faith_money:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_faith_money:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_money:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_money:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_money:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_plant:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_plant:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_plant:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_shield:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_shield:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_shield:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_sins:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_sins:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_sins:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_skull:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_skull:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_skull:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_sword:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_sword:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_sword:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_village:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_village:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_village:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_pen:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_pen:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_pen:3",
+          "tier": 0
+        },
+        {
+          "item_name": "b_star:1",
+          "tier": 0
+        },
+        {
+          "item_name": "b_star:2",
+          "tier": 0
+        },
+        {
+          "item_name": "b_star:3",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_bishop",
+      "product_types": [
+        "church",
+        "bread_for_bishop",
+        "praying",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.9,
+      "daily_money_income": 0.1,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "crop_waste",
+          "tier": 0
+        },
+        {
+          "item_name": "wheat_crop",
+          "tier": 0
+        },
+        {
+          "item_name": "wheat_seed",
+          "tier": 0
+        },
+        {
+          "item_name": "wheat_crop",
+          "tier": 0
+        },
+        {
+          "item_name": "cabbage_seed",
+          "tier": 0
+        },
+        {
+          "item_name": "carrot_seed",
+          "tier": 0
+        },
+        {
+          "item_name": "beet_seed",
+          "tier": 0
+        },
+        {
+          "item_name": "lentils_seed:1",
+          "tier": 0
+        },
+        {
+          "item_name": "lentils_seed:2",
+          "tier": 0
+        },
+        {
+          "item_name": "lentils_crop:1",
+          "tier": 0
+        },
+        {
+          "item_name": "lentils_crop:2",
+          "tier": 0
+        },
+        {
+          "item_name": "pumpkin_seed:1",
+          "tier": 0
+        },
+        {
+          "item_name": "pumpkin_seed:2",
+          "tier": 0
+        },
+        {
+          "item_name": "pumpkin_crop:1",
+          "tier": 0
+        },
+        {
+          "item_name": "pumpkin_crop:2",
+          "tier": 0
+        },
+        {
+          "item_name": "onion_seed:1",
+          "tier": 0
+        },
+        {
+          "item_name": "onion_seed:2",
+          "tier": 0
+        },
+        {
+          "item_name": "onion_crop:1",
+          "tier": 0
+        },
+        {
+          "item_name": "onion_crop:2",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_farmer",
+      "product_types": [
+        "seeds",
+        "garden",
+        "firewood",
+        "miller",
+        "onion_seeds",
+        "onion_garden",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 10.0,
+      "daily_money_income": 0.75,
+      "levelup_costs": [
+        10.0,
+        0.0
+      ],
+      "count_modificators": [
+        {
+          "item_name": "firewood",
+          "tier": 1,
+          "base_count": 5
+        },
+        {
+          "item_name": "firewood",
+          "tier": 2,
+          "base_count": 5
+        },
+        {
+          "item_name": "firewood",
+          "tier": 3,
+          "base_count": 5
+        }
+      ],
+      "not_buying": [
+        {
+          "item_name": "hearthstone",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "scroll_2",
+          "tier": 0
+        },
+        {
+          "item_name": "firewood",
+          "tier": 0
+        },
+        {
+          "item_name": "packet_meat",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_tavern owner",
+      "product_types": [
+        "tavern",
+        "packet_meat",
+        "burial",
+        "firewood",
+        "blessing",
+        "hearthstone"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.5,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        10.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        },
+        {
+          "item_name": "axe_2",
+          "tier": 0
+        },
+        {
+          "item_name": "chisel:chisel_2:3",
+          "tier": 0
+        }
+      ],
+      "additional_types": [
+        {
+          "expression": "Ppar(\"tress_paints_unlocked\")>0"
+        }
+      ],
+      "id": "npc_carpenter",
+      "product_types": [
+        "wooden_goods",
+        "tools_wd",
+        "firewood",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 5.0,
+      "daily_money_income": 0.1,
+      "levelup_costs": [
+        0.0,
+        10.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        },
+        {
+          "item_name": "pickaxe_2",
+          "tier": 0
+        },
+        {
+          "item_name": "chisel:chisel_2:3",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_engineer",
+      "product_types": [
+        "stone_goods",
+        "firewood",
+        "tools_stn",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 112.3,
+      "daily_money_income": 1.0,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [
+        {
+          "item_name": "bijouterie_gold",
+          "tier": 1,
+          "base_count": 0
+        },
+        {
+          "item_name": "bijouterie_gold",
+          "tier": 2,
+          "base_count": 0
+        },
+        {
+          "item_name": "bijouterie_gold",
+          "tier": 3,
+          "base_count": 0
+        },
+        {
+          "item_name": "grapes_seed:4",
+          "tier": 8,
+          "base_count": 12
+        }
+      ],
+      "not_buying": [],
+      "not_selling": [
+        {
+          "item_name": "bottle_red_vine:3",
+          "tier": 0
+        },
+        {
+          "item_name": "dessert:pie",
+          "tier": 0
+        },
+        {
+          "item_name": "dessert:pie_2:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:soup_yellow_green:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:soup_red_yellow:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:soup_red_green:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:burger:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:baked_salmon:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:baked_kebab_1:3",
+          "tier": 0
+        },
+        {
+          "item_name": "meal:bowl_lentil:3",
+          "tier": 0
+        },
+        {
+          "item_name": "snack:toasts:3",
+          "tier": 0
+        },
+        {
+          "item_name": "snack:onion_ring:3",
+          "tier": 0
+        },
+        {
+          "item_name": "ingot_silver",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_merchant",
+      "product_types": [
+        "luxery",
+        "blessing",
+        "luxery_food",
+        "silk",
+        "blessing",
+        "bijouterie"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 50.0,
+      "daily_money_income": 2.0,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "paper_clean",
+          "tier": 0
+        },
+        {
+          "item_name": "chapter:1",
+          "tier": 0
+        },
+        {
+          "item_name": "cover:cover_1",
+          "tier": 0
+        },
+        {
+          "item_name": "cover:cover_hard:1",
+          "tier": 0
+        },
+        {
+          "item_name": "cover:cover_hard:2",
+          "tier": 0
+        },
+        {
+          "item_name": "ink:ink_jar",
+          "tier": 0
+        },
+        {
+          "item_name": "pen_1",
+          "tier": 0
+        },
+        {
+          "item_name": "pen:ink_pen",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "book:book_hard:2",
+          "tier": 0
+        },
+        {
+          "item_name": "book:book_hard:3",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_astrologer",
+      "product_types": [
+        "paper",
+        "tech",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.52,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [
+        {
+          "item_name": "pail_milk",
+          "tier": 1,
+          "base_count": 4
+        },
+        {
+          "item_name": "cheese",
+          "tier": 1,
+          "base_count": 5
+        },
+        {
+          "item_name": "butter",
+          "tier": 1,
+          "base_count": 5
+        },
+        {
+          "item_name": "jug_milk",
+          "tier": 1,
+          "base_count": 10
+        },
+        {
+          "item_name": "pail_milk",
+          "tier": 2,
+          "base_count": 9
+        },
+        {
+          "item_name": "cheese",
+          "tier": 2,
+          "base_count": 10
+        },
+        {
+          "item_name": "butter",
+          "tier": 2,
+          "base_count": 12
+        },
+        {
+          "item_name": "jug_milk",
+          "tier": 2,
+          "base_count": 20
+        },
+        {
+          "item_name": "pail_milk",
+          "tier": 3,
+          "base_count": 13
+        },
+        {
+          "item_name": "cheese",
+          "tier": 3,
+          "base_count": 20
+        },
+        {
+          "item_name": "butter",
+          "tier": 3,
+          "base_count": 17
+        },
+        {
+          "item_name": "jug_milk",
+          "tier": 3,
+          "base_count": 30
+        }
+      ],
+      "not_buying": [
+        {
+          "item_name": "jug_milk",
+          "tier": 0
+        },
+        {
+          "item_name": "butter",
+          "tier": 0
+        },
+        {
+          "item_name": "cheese",
+          "tier": 0
+        },
+        {
+          "item_name": "pail_milk",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_shepherds_wife",
+      "product_types": [
+        "milk"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.58,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "peat",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "crop_waste",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_shepherd",
+      "product_types": [
+        "fertilizer"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 1.51,
+      "daily_money_income": 0.5,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [
+        {
+          "item_name": "fish_goldfish",
+          "tier": 3,
+          "base_count": 0
+        }
+      ],
+      "not_buying": [
+        {
+          "item_name": "bait_gem",
+          "tier": 0
+        },
+        {
+          "item_name": "bait_steel",
+          "tier": 0
+        },
+        {
+          "item_name": "fishing_rod_2",
+          "tier": 0
+        },
+        {
+          "item_name": "fillet_fish_white",
+          "tier": 0
+        },
+        {
+          "item_name": "fillet_fish:fillet_fish_red:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fillet_fish:fillet_fish_red:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fillet_fish:fillet_fish_blue:2",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_frog_green",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_gudgeon",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_anchovy",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_bream:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_bream:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_carp",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_perch",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_anchovy",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_bream:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_bream:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_carp",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_eel",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_tilapia",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_tuna:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_tuna:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_sardine:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_sardine:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_pike:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_pike:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_sturgeon:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_sturgeon:3",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_salmon:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_crucian_silver:1",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_crucian_silver:2",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_salmon:3",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_crucian_gold",
+          "tier": 0
+        },
+        {
+          "item_name": "fish_goldfish",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_light_keeper",
+      "product_types": [
+        "fishing_stuff",
+        "firewood",
+        "fish",
+        "fillet_fish",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 1.8,
+      "daily_money_income": 0.06,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "bee",
+          "tier": 0
+        },
+        {
+          "item_name": "honey",
+          "tier": 0
+        },
+        {
+          "item_name": "beeswax",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_beekeeper",
+      "product_types": [
+        "bee_things",
+        "firewood",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.3,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "hamp_seed:1",
+          "tier": 0
+        },
+        {
+          "item_name": "hamp_crop:1",
+          "tier": 0
+        },
+        {
+          "item_name": "seed_oil",
+          "tier": 0
+        },
+        {
+          "item_name": "rope_hemp",
+          "tier": 0
+        }
+      ],
+      "not_selling": [
+        {
+          "item_name": "firewood",
+          "tier": 0
+        }
+      ],
+      "additional_types": [],
+      "id": "npc_dig",
+      "product_types": [
+        "hamp",
+        "firewood",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.1,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "egg_chicken",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "egg_seller",
+      "product_types": [
+        "chicken_products",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 20.0,
+      "daily_money_income": 1.5,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "pot_heal",
+          "tier": 0
+        },
+        {
+          "item_name": "pot_mana",
+          "tier": 0
+        },
+        {
+          "item_name": "pot_appetite",
+          "tier": 0
+        },
+        {
+          "item_name": "pot_heal_long",
+          "tier": 0
+        },
+        {
+          "item_name": "pot_damage",
+          "tier": 0
+        },
+        {
+          "item_name": "pot_berserk",
+          "tier": 0
+        },
+        {
+          "item_name": "pot_armor",
+          "tier": 0
+        },
+        {
+          "item_name": "golden_apple",
+          "tier": 0
+        },
+        {
+          "item_name": "glue",
+          "tier": 0
+        },
+        {
+          "item_name": "dark_elixir",
+          "tier": 0
+        },
+        {
+          "item_name": "alkali",
+          "tier": 0
+        },
+        {
+          "item_name": "acid",
+          "tier": 0
+        },
+        {
+          "item_name": "flask_green_l_plus",
+          "tier": 0
+        },
+        {
+          "item_name": "preservative",
+          "tier": 0
+        },
+        {
+          "item_name": "silver_elixir",
+          "tier": 0
+        },
+        {
+          "item_name": "golden_elixir",
+          "tier": 0
+        },
+        {
+          "item_name": "tanning_agent",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_brown",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_d_blue",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_d_green",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_d_violet",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_green",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_red",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_violet",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_yellow",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_1_yellow_electro",
+          "tier": 0
+        },
+        {
+          "item_name": "taste_booster:alchemy_1_spice",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_brown",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_d_blue",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_d_green",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_d_violet",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_green",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_red",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_violet",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_2_yellow",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_brown",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_d_blue",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_d_green",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_d_violet",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_green",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_red",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_violet",
+          "tier": 0
+        },
+        {
+          "item_name": "alchemy_3_yellow",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_witch",
+      "product_types": [
+        "frog",
+        "seedling",
+        "pot_base",
+        "pot_cool",
+        "golden_apple",
+        "alchemy",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.05,
+      "daily_money_income": 0.03,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "ceramic_1",
+          "tier": 0
+        },
+        {
+          "item_name": "ceramic_2",
+          "tier": 0
+        },
+        {
+          "item_name": "ceramic_3",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_potter",
+      "product_types": [
+        "ceramic",
+        "blessing"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 100.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_actress",
+      "product_types": [
+        "actress"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 100.0,
+      "daily_money_income": 5.0,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "sword_0",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_1",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_damask",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_damask_gem",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_metal",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_metal_gem",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_steel",
+          "tier": 0
+        },
+        {
+          "item_name": "sword_steel_gem",
+          "tier": 0
+        },
+        {
+          "item_name": "armor_lamellar_1",
+          "tier": 0
+        },
+        {
+          "item_name": "armor_lamellar_2",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_hunchback",
+      "product_types": [
+        "weapon",
+        "armor",
+        "blessing",
+        "dagger_baron"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.9,
+      "daily_money_income": 0.04,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "recipe_Pies",
+          "tier": 0
+        },
+        {
+          "item_name": "recipe_Veg",
+          "tier": 0
+        },
+        {
+          "item_name": "recipe_Sweet",
+          "tier": 0
+        },
+        {
+          "item_name": "recipe_delicacies",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_mrs chain",
+      "product_types": [
+        "recipes"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 0.01,
+      "daily_money_income": 0.0,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "body_spawn",
+      "product_types": [
+        "forearm_type_for_test",
+        "bud_type_for_test"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 10.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_cook_1",
+      "product_types": [
+        "refugee_food_1"
+      ]
+    },
+    {
+      "start_tire": 2,
+      "start_money": 15.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_cook_2",
+      "product_types": [
+        "refugee_food_1",
+        "refugee_food_2"
+      ]
+    },
+    {
+      "start_tire": 3,
+      "start_money": 20.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_cook_3",
+      "product_types": [
+        "refugee_food_1",
+        "refugee_food_2",
+        "refugee_food_3"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 10.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_undertaker_1",
+      "product_types": [
+        "grave_refigee_1"
+      ]
+    },
+    {
+      "start_tire": 2,
+      "start_money": 15.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_undertaker_2",
+      "product_types": [
+        "grave_refigee_1",
+        "grave_refigee_2"
+      ]
+    },
+    {
+      "start_tire": 3,
+      "start_money": 20.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_undertaker_3",
+      "product_types": [
+        "grave_refigee_1",
+        "grave_refigee_2",
+        "grave_refigee_3"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 10.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "bag_alchemy",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_farming",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_fishing",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_tools",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_potions",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_builder",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_food",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_tanner_1",
+      "product_types": [
+        "bags_1"
+      ]
+    },
+    {
+      "start_tire": 2,
+      "start_money": 15.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "bag_alchemy",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_farming",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_fishing",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_tools",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_potions",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_builder",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_food",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_tanner_2",
+      "product_types": [
+        "bags_1",
+        "bags_2"
+      ]
+    },
+    {
+      "start_tire": 3,
+      "start_money": 20.0,
+      "daily_money_income": 0.05,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [
+        {
+          "item_name": "bag_alchemy",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_farming",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_fishing",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_tools",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_potions",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_builder",
+          "tier": 0
+        },
+        {
+          "item_name": "bag_food",
+          "tier": 0
+        }
+      ],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "vendor_refugee_tanner_3",
+      "product_types": [
+        "bags_1",
+        "bags_2",
+        "bags_3"
+      ]
+    },
+    {
+      "start_tire": 1,
+      "start_money": 116.0,
+      "daily_money_income": 0.12,
+      "levelup_costs": [
+        0.0,
+        0.0
+      ],
+      "count_modificators": [],
+      "not_buying": [],
+      "not_selling": [],
+      "additional_types": [],
+      "id": "npc_refugee_moneylender",
+      "product_types": [
+        "refugee_moneylender"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "type": "quests",
+  "count": 32,
+  "data": [
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": "0",
+      "start_key": [
+        "game_start"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "red_eye_talk_1",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "start"
+    },
+    {
+      "start_trigger": "0",
+      "success_trigger": "Ppar(\"gone_out_from_house\")",
+      "fail_trigger": null,
+      "start_key": [
+        "quest_finished"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "lock_tps",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "tp_house_a_",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "get_out_from_house"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "tp_house"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "get_out_from_house_tech"
+    },
+    {
+      "start_trigger": "Ppar(\"dig_graved_skull\")",
+      "success_trigger": "Ppar(\"skull_digged\")",
+      "fail_trigger": null,
+      "start_key": [
+        "quest_finished"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "graved_skull",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "dig_graved_skull"
+    },
+    {
+      "start_trigger": "Ppar(\"go_to_talk_with_donkey_first_time\")",
+      "success_trigger": "Ppar(\"met_donkey\")",
+      "fail_trigger": null,
+      "start_key": [
+        ""
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "unlock_tps",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "donkey",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "go_to_talk_with_donkey_first_time"
+    },
+    {
+      "start_trigger": "Ppar(\"go_to_mortuary_after_skull\")",
+      "success_trigger": "Ppar(\"in_morgue\")",
+      "fail_trigger": null,
+      "start_key": [
+        ""
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "morgue",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "go_to_mortuary_after_skull"
+    },
+    {
+      "start_trigger": "Ppar(\"go_to_mortuary_after_skull\")",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "tp_mortuary"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "go_to_mortuary_after_skull_tech"
+    },
+    {
+      "start_trigger": "Ppar(\"skull_talk_autopsi\")",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_flesh"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_skull_talk_autopsi",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "on_skull_talk_autopsi"
+    },
+    {
+      "start_trigger": "Ppar(\"skull_wait_in_cemetery\")",
+      "success_trigger": "1-Ppar(\"skull_wait_in_cemetery\")",
+      "fail_trigger": null,
+      "start_key": [
+        "tp_mortuary"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "talking_skull",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "go_to_graveyard_and_talk_with_skull"
+    },
+    {
+      "start_trigger": "Ppar(\"waiting_for_first_bureal\")",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_scroll_2"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_after_first_bureal",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "skull_talk_after_burial"
+    },
+    {
+      "start_trigger": "Ppar(\"take_tools_from_grave_chest\")",
+      "success_trigger": "Ppar(\"tools_from_grave_chest_taken\")",
+      "fail_trigger": null,
+      "start_key": [
+        ""
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "grave_chest",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "take_tools_from_grave_chest"
+    },
+    {
+      "start_trigger": "Ppar(\"take_tools_from_grave_chest\")",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "interact_mf_box_stuff"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "tools_from_grave_chest_taken_tech"
+    },
+    {
+      "start_trigger": "Ppar(\"goto_tavern\")",
+      "success_trigger": "Ppar(\"test_tavern\")",
+      "fail_trigger": null,
+      "start_key": [
+        "quest_finished"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "Tavern_1",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "goto_tavern"
+    },
+    {
+      "start_trigger": null,
+      "success_trigger": "Ppar(\"was_in_tavern\")",
+      "fail_trigger": null,
+      "start_key": [
+        ""
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "Tavern",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "goto_tavern_2"
+    },
+    {
+      "start_trigger": "Ppar(\"goto_tavern\")",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "tp_tavern"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "goto_tavern_tech"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "player_respawn"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": false,
+      "start_script": "player_ressurection",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "player_ressurection"
+    },
+    {
+      "start_trigger": "Ppar(\"cultist_quest_enabled\")",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "player_dead"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "player_dead_in_cultist_quest",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "player_die_after_in_cultist_quest"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "Ppar(\"sword_has_fixed\")",
+      "fail_trigger": null,
+      "start_key": [
+        "item_whetstone"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": true,
+      "arrow_wgo_custom_tag": "grinder_bs",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "player_repairs_sword"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "interact_mf_grindstone_1"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "player_repairs_sword_before"
+    },
+    {
+      "start_trigger": "Ppar(\"remove_actor_from_tavern\")",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "wake_up"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "remove_actor_from_tavern",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "actor_remove_from_tavern_quest"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_scroll_2"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "ghost_come_after_1st_burial"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_onion_crop:1"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "horadric_recipe_after_1st_onion",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "horadric_recipe_after_1st_onion"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_nails_bloody"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [
+        "UnlockCraft(\"bloody_nails_wash\")"
+      ],
+      "fail_expressions": [],
+      "id": "unlock_nails_wash_craft"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_tr_door_hinge"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "on_picked_hinge",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "dig_up_hinge"
+    },
+    {
+      "start_trigger": "Ppar(\"dig_waits_for_booze\")",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "item_bottle_booz_xxx"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_booze_picked_for_dig",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "booze_for_dig"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "item_obsidian_research"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_obsidian_research_picked_up",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "on_picked_obsidian_research"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "item_tr_resin_pot"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_picked_tr_resin_pot",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "on_picked_tr_resin_pot"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "item_tr_bellas_ring"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_picked_tr_bellas_ring",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "on_picked_tr_bellas_ring"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "put_beer_into_taverns_rack"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_tavern_cellar_rack_interacted",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "interact_tavern_rack_in_player_tavern"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "dlc_stories_event"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_finished_tavern_event_first_time",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "first_tavern_event"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": "1",
+      "fail_trigger": null,
+      "start_key": [
+        "item_witchers_eye"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "receive_witechers_eye"
+    },
+    {
+      "start_trigger": "1",
+      "success_trigger": null,
+      "fail_trigger": null,
+      "start_key": [
+        "item_glass_broken"
+      ],
+      "rew_on_success_params": {},
+      "rew_on_fail_params": {},
+      "one_time_quest": true,
+      "start_script": "on_broken_glass_pick_first_time",
+      "success_script": "",
+      "fail_script": "",
+      "quest_visible": false,
+      "arrow_wgo_custom_tag": "",
+      "arrow_wgo_obj_id": "",
+      "success_expressions": [],
+      "fail_expressions": [],
+      "id": "unlock_melting_glass"
+    }
+  ]
+}

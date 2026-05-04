@@ -1,0 +1,18 @@
+{
+  "type": "auras",
+  "count": 2,
+  "data": [
+    {
+      "radius": 3.0,
+      "time_tick": 1.0,
+      "res": {},
+      "id": "poison"
+    },
+    {
+      "radius": 3.0,
+      "time_tick": 1.0,
+      "res": {},
+      "id": "add_hp"
+    }
+  ]
+}

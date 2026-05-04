@@ -1,0 +1,79 @@
+{
+  "type": "transport_paths",
+  "count": 5,
+  "data": [
+    {
+      "source_zone_id": "stone_workyard",
+      "station_wgo_id": "porter_station",
+      "destination_zone_id": "mf_wood",
+      "transport_items": [
+        "stone",
+        "ore_metal",
+        "marble",
+        "stone_plate_1",
+        "stone_plate_2",
+        "marble_plate_1",
+        "marble_plate_2",
+        "coal",
+        "1h_ore_metal",
+        "repair_stn",
+        "repair_mrb",
+        "nugget_silver",
+        "nugget_gold"
+      ],
+      "id": "stone_workyard"
+    },
+    {
+      "source_zone_id": "zombie_sawmill",
+      "station_wgo_id": "porter_station",
+      "destination_zone_id": "mf_wood",
+      "transport_items": [
+        "wood"
+      ],
+      "id": "zombie_sawmill"
+    },
+    {
+      "source_zone_id": "cellar_storage",
+      "station_wgo_id": "porter_station_wall_mounted",
+      "destination_zone_id": "storage",
+      "transport_items": [
+        "box_vegetables_silver",
+        "box_vegetables_gold",
+        "box_goods"
+      ],
+      "id": "cellar_to_storage"
+    },
+    {
+      "source_zone_id": "cellar",
+      "station_wgo_id": "porter_station_to_tavern",
+      "destination_zone_id": "player_tavern_cellar",
+      "transport_items": [
+        "cup_beer:1",
+        "cup_beer:2",
+        "cup_beer:3",
+        "cup_mead:1",
+        "cup_mead:2",
+        "cup_mead:3",
+        "bottle_red_vine:1",
+        "bottle_red_vine:2",
+        "bottle_red_vine:3",
+        "bottle_booz_xxx"
+      ],
+      "id": "cellar_to_tavern"
+    },
+    {
+      "source_zone_id": "vineyard",
+      "station_wgo_id": "porter_station",
+      "destination_zone_id": "cellar",
+      "transport_items": [
+        "fruit:grapes_crop:1",
+        "fruit:grapes_crop:2",
+        "fruit:grapes_crop:3",
+        "hop_crop:1",
+        "hop_crop:2",
+        "hop_crop:3"
+      ],
+      "id": "vineyard_to_cellar"
+    }
+  ]
+}

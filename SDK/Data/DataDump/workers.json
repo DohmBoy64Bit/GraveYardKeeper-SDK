@@ -1,0 +1,18 @@
+{
+  "type": "workers",
+  "count": 2,
+  "data": [
+    {
+      "item_overhead": "working_zombie_pseudoitem_1",
+      "item_on_ground": "working_zombie_on_ground_1",
+      "worker_wgo": "worker_zombie_1",
+      "id": "worker_zombie_1"
+    },
+    {
+      "item_overhead": "worker_invisible_overhead",
+      "item_on_ground": "worker_invisible_ground",
+      "worker_wgo": "worker_invisible",
+      "id": "worker_invisible"
+    }
+  ]
+}

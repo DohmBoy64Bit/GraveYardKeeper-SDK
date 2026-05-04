@@ -1,0 +1,145 @@
+{
+  "type": "object_groups",
+  "count": 22,
+  "data": [
+    {
+      "aura_emitters": [],
+      "aura_receivers": [
+        "poison",
+        "add_hp"
+      ],
+      "tech_icon": "",
+      "id": "_char"
+    },
+    {
+      "aura_emitters": [
+        "poison"
+      ],
+      "aura_receivers": [],
+      "tech_icon": "",
+      "id": "poisoned"
+    },
+    {
+      "aura_emitters": [
+        "add_hp"
+      ],
+      "aura_receivers": [],
+      "tech_icon": "",
+      "id": "healing"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "",
+      "id": "farming"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_1h_stone",
+      "id": "t_stone"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_1h_ore_metal",
+      "id": "t_iron_ore_1"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_1h_ore_metal",
+      "id": "t_iron_ore_2"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_coal",
+      "id": "t_coal"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_clay",
+      "id": "t_clai"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_wood_2",
+      "id": "t_wood_small"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_wood_2",
+      "id": "t_wood_big"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_1h_marble",
+      "id": "t_marble"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_sand_river",
+      "id": "t_sand"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_shr_boletus",
+      "id": "t_mushroom"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_berry",
+      "id": "t_berry"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_apple_red_crop",
+      "id": "t_apple"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_shr_agaric",
+      "id": "t_mushroom2"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_stick",
+      "id": "t_stick"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "",
+      "id": "pulpit"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "",
+      "id": "winemaking"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "",
+      "id": "balsamation"
+    },
+    {
+      "aura_emitters": [],
+      "aura_receivers": [],
+      "tech_icon": "i_faceted_diamond",
+      "id": "t_diamond"
+    }
+  ]
+}

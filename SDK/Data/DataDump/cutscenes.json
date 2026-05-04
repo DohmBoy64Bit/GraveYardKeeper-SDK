@@ -1,0 +1,91 @@
+{
+  "type": "cutscenes",
+  "count": 17,
+  "data": [
+    {
+      "item": "tr_red_eye",
+      "flow_script": "DLC_cutscene_1",
+      "id": "dlc_cutscene_1"
+    },
+    {
+      "item": "tr_flask",
+      "flow_script": "DLC_cutscene_2",
+      "id": "dlc_cutscene_2"
+    },
+    {
+      "item": "tr_door_hinge",
+      "flow_script": "DLC_cutscene_3",
+      "id": "dlc_cutscene_3"
+    },
+    {
+      "item": "tr_helmet",
+      "flow_script": "DLC_cutscene_4",
+      "id": "dlc_cutscene_4"
+    },
+    {
+      "item": "tr_picklock",
+      "flow_script": "DLC_cutscene_6",
+      "id": "dlc_cutscene_6"
+    },
+    {
+      "item": "tr_medallion",
+      "flow_script": "DLC_cutscene_7",
+      "id": "dlc_cutscene_7"
+    },
+    {
+      "item": "tr_dagger",
+      "flow_script": "DLC_cutscene_8",
+      "id": "dlc_cutscene_8"
+    },
+    {
+      "item": "tr_buckle",
+      "flow_script": "DLC_cutscene_10",
+      "id": "dlc_cutscene_10"
+    },
+    {
+      "item": "tr_clay_shards",
+      "flow_script": "DLC_cutscene_11",
+      "id": "dlc_cutscene_11"
+    },
+    {
+      "item": "tr_red_eye_amulet",
+      "flow_script": "DLC_cutscene_12",
+      "id": "dlc_cutscene_12"
+    },
+    {
+      "item": "tr_handcuff",
+      "flow_script": "DLC_cutscene_13",
+      "id": "dlc_cutscene_13"
+    },
+    {
+      "item": "tr_pickaxe",
+      "flow_script": "DLC_cutscene_14",
+      "id": "dlc_cutscene_14"
+    },
+    {
+      "item": "tr_key",
+      "flow_script": "DLC_cutscene_15",
+      "id": "dlc_cutscene_15"
+    },
+    {
+      "item": "tr_resin_pot",
+      "flow_script": "DLC_cutscene_16",
+      "id": "dlc_cutscene_16"
+    },
+    {
+      "item": "tr_bellas_ring",
+      "flow_script": "DLC_cutscene_17",
+      "id": "dlc_cutscene_17"
+    },
+    {
+      "item": "tr_signet",
+      "flow_script": "DLC_cutscene_18",
+      "id": "dlc_cutscene_18"
+    },
+    {
+      "item": "tr_brick",
+      "flow_script": "DLC_cutscene_19",
+      "id": "dlc_cutscene_19"
+    }
+  ]
+}

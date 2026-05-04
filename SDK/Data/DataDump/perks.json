@@ -1,0 +1,314 @@
+{
+  "type": "perks",
+  "count": 44,
+  "data": [
+    {
+      "output_res": {},
+      "icon": "i_p_blacksmith",
+      "stars": 0.1,
+      "show": true,
+      "id": "p_blacksmith"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_woodworker",
+      "stars": 0.5,
+      "show": true,
+      "id": "p_woodworker"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_mason",
+      "stars": 0.5,
+      "show": true,
+      "id": "p_mason"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_engineer",
+      "stars": 0.3,
+      "show": true,
+      "id": "p_engineer"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_writer",
+      "stars": 0.3,
+      "show": true,
+      "id": "p_writer"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_shakespear",
+      "stars": 0.5,
+      "show": true,
+      "id": "p_good_writer"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_jevelery",
+      "stars": 0.7,
+      "show": true,
+      "id": "p_jevelery"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_wine_master",
+      "stars": 0.8,
+      "show": true,
+      "id": "p_wine_master"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_scientist",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_scientist"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_sword_master",
+      "stars": 1.0,
+      "show": true,
+      "id": "p_sword_master"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_fireman",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_fireman"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_miner",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_miner"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_big_guy",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_big_guy"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_master_potter",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_master_potter"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_journalist",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_journalist"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_collector",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_collector"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_farmer",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_farmer"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_beekeeper2",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_beekeeper2"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_butcher",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_butcher"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_axeman",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_axeman"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_doctor",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_doctor"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_magnifier",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_naturalist"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_cultist",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_cultist"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_preacher",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_preacher"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_cardinal",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_cardinal"
+    },
+    {
+      "output_res": {},
+      "icon": "i_nugget_gold",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_gold_ore"
+    },
+    {
+      "output_res": {},
+      "icon": "i_nugget_silver",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_silver_ore"
+    },
+    {
+      "output_res": {},
+      "icon": "i_pyrite",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_pyrite"
+    },
+    {
+      "output_res": {},
+      "icon": "i_sulfur",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_sulfur"
+    },
+    {
+      "output_res": {},
+      "icon": "i_lifestone",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_lifestone"
+    },
+    {
+      "output_res": {},
+      "icon": "",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_sand_improve"
+    },
+    {
+      "output_res": {},
+      "icon": "i_beeswax",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_beeswax"
+    },
+    {
+      "output_res": {},
+      "icon": "i_butterfly",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_butterfly"
+    },
+    {
+      "output_res": {},
+      "icon": "i_moth",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_moth"
+    },
+    {
+      "output_res": {},
+      "icon": "i_bee",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_bee"
+    },
+    {
+      "output_res": {},
+      "icon": "i_book_ruined_1",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_old_books"
+    },
+    {
+      "output_res": {},
+      "icon": "i_maggot",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_maggot"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_resistance",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_persistence"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_hard_worker",
+      "stars": 0.2,
+      "show": true,
+      "id": "p_industriousness"
+    },
+    {
+      "output_res": {},
+      "icon": "i_p_oratory",
+      "stars": 0.0,
+      "show": true,
+      "id": "p_eloquence"
+    },
+    {
+      "output_res": {},
+      "icon": "i_1h_obsidian",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_obsidian"
+    },
+    {
+      "output_res": {},
+      "icon": "i_1h_marble_gold",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_marble_gold"
+    },
+    {
+      "output_res": {},
+      "icon": "i_faceted_emerald",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_emerald"
+    },
+    {
+      "output_res": {},
+      "icon": "i_faceted_diamond",
+      "stars": 0.0,
+      "show": false,
+      "id": "p_t_diamond"
+    }
+  ]
+}

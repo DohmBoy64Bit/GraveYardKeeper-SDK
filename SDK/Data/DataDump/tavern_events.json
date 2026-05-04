@@ -1,0 +1,85 @@
+{
+  "type": "tavern_events",
+  "count": 4,
+  "data": [
+    {
+      "visitors_count": "GetZoneQ(\"players_tavern\") * 0.25",
+      "viewers_count": "GetZoneQ(\"players_tavern\") * 0.1",
+      "max_food_sold": "GetZoneQ(\"players_tavern\")*2",
+      "idle_points_blacklist": [],
+      "idle_points_whitelist": [],
+      "viewers_points": [
+        "alcofest_idle_1",
+        "alcofest_idle_2",
+        "alcofest_idle_3",
+        "alcofest_idle_4",
+        "alcofest_idle_5",
+        "alcofest_idle_6"
+      ],
+      "type": 0,
+      "unconditional_income": 10.0,
+      "id": "alcofest"
+    },
+    {
+      "visitors_count": "GetZoneQ(\"players_tavern\") * 0.25",
+      "viewers_count": "GetZoneQ(\"players_tavern\") * 0.12",
+      "max_food_sold": "GetZoneQ(\"players_tavern\")*2",
+      "idle_points_blacklist": [
+        "players_tavern_idle_8"
+      ],
+      "idle_points_whitelist": [],
+      "viewers_points": [
+        "stand_up_idle_1",
+        "stand_up_idle_2",
+        "stand_up_idle_3",
+        "stand_up_idle_4",
+        "stand_up_idle_5"
+      ],
+      "type": 1,
+      "unconditional_income": 20.0,
+      "id": "stand_up"
+    },
+    {
+      "visitors_count": "GetZoneQ(\"players_tavern\") * 0.2",
+      "viewers_count": "GetZoneQ(\"players_tavern\") * 0.1",
+      "max_food_sold": "GetZoneQ(\"players_tavern\")*2",
+      "idle_points_blacklist": [
+        "players_tavern_idle_12",
+        "players_tavern_idle_13",
+        "players_tavern_idle_14",
+        "players_tavern_idle_15",
+        "players_tavern_idle_16"
+      ],
+      "idle_points_whitelist": [],
+      "viewers_points": [
+        "sharmel_song_idle_1",
+        "sharmel_song_idle_2",
+        "sharmel_song_idle_3",
+        "sharmel_song_idle_4",
+        "sharmel_song_idle_5",
+        "sharmel_song_idle_6"
+      ],
+      "type": 2,
+      "unconditional_income": 30.0,
+      "id": "sharmel_song"
+    },
+    {
+      "visitors_count": "GetZoneQ(\"players_tavern\") * 0.2",
+      "viewers_count": "GetZoneQ(\"players_tavern\") * 0.1",
+      "max_food_sold": "GetZoneQ(\"players_tavern\")*2",
+      "idle_points_blacklist": [],
+      "idle_points_whitelist": [],
+      "viewers_points": [
+        "rat_race_idle_1",
+        "rat_race_idle_2",
+        "rat_race_idle_3",
+        "rat_race_idle_4",
+        "rat_race_idle_5",
+        "rat_race_idle_6"
+      ],
+      "type": 3,
+      "unconditional_income": 20.0,
+      "id": "rat_race"
+    }
+  ]
+}

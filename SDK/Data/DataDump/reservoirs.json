@@ -1,0 +1,46 @@
+{
+  "type": "reservoirs",
+  "count": 5,
+  "data": [
+    {
+      "dist_avaliables": [
+        true,
+        true,
+        true
+      ],
+      "id": "village_lake_fishing_spot"
+    },
+    {
+      "dist_avaliables": [
+        true,
+        true,
+        false
+      ],
+      "id": "river_fishing_spot"
+    },
+    {
+      "dist_avaliables": [
+        true,
+        true,
+        false
+      ],
+      "id": "swamp_fishing_spot"
+    },
+    {
+      "dist_avaliables": [
+        true,
+        true,
+        true
+      ],
+      "id": "waterfall_fishing_spot"
+    },
+    {
+      "dist_avaliables": [
+        true,
+        true,
+        true
+      ],
+      "id": "sea_fishing_spot"
+    }
+  ]
+}

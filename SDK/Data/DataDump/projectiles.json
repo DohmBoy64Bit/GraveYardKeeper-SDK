@@ -1,0 +1,566 @@
+{
+  "type": "projectiles",
+  "count": 10,
+  "data": [
+    {
+      "prefab_name": "projectile",
+      "speed": 4.0,
+      "max_dist_lower_limit": 8.0,
+      "max_dist_upper_limit": 8.0,
+      "max_time": 0.0,
+      "damage": 5.0,
+      "pierce": 2,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "",
+        "drop_item": "fruit:berry",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "*barrel_1",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "ground_shit",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "test_projectile"
+    },
+    {
+      "prefab_name": "body_in_water",
+      "speed": 1.0,
+      "max_dist_lower_limit": 20.0,
+      "max_dist_upper_limit": 20.0,
+      "max_time": 0.0,
+      "damage": 0.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "body_in_water"
+    },
+    {
+      "prefab_name": "projectile",
+      "speed": 0.0,
+      "max_dist_lower_limit": 1.0,
+      "max_dist_upper_limit": 1.0,
+      "max_time": 2.0,
+      "damage": 5.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "timer_test_projectile"
+    },
+    {
+      "prefab_name": "slime_mask_projectile",
+      "speed": 10.0,
+      "max_dist_lower_limit": 7.0,
+      "max_dist_upper_limit": 7.0,
+      "max_time": 0.0,
+      "damage": 10.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "slime_mask_projectile"
+    },
+    {
+      "prefab_name": "golem_spike",
+      "speed": 7.0,
+      "max_dist_lower_limit": 1.0,
+      "max_dist_upper_limit": 4.0,
+      "max_time": 1.0,
+      "damage": 0.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "golem_spike",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "golem_spike",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "golem_spike",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "golem_spike"
+    },
+    {
+      "prefab_name": "golem_spike",
+      "speed": 7.0,
+      "max_dist_lower_limit": 1.0,
+      "max_dist_upper_limit": 5.0,
+      "max_time": 1.0,
+      "damage": 0.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "golem_spike_blue",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "golem_spike_blue",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "golem_spike_blue",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "golem_spike_blue"
+    },
+    {
+      "prefab_name": "golem_spike",
+      "speed": 7.0,
+      "max_dist_lower_limit": 1.0,
+      "max_dist_upper_limit": 5.0,
+      "max_time": 1.0,
+      "damage": 0.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "golem_spike_red",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "golem_spike_red",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "golem_spike_red",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "golem_spike_red"
+    },
+    {
+      "prefab_name": "spider_projectile",
+      "speed": 10.0,
+      "max_dist_lower_limit": 7.0,
+      "max_dist_upper_limit": 7.0,
+      "max_time": 0.0,
+      "damage": 5.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "spider_projectile"
+    },
+    {
+      "prefab_name": "incendiary_bullet",
+      "speed": 0.0,
+      "max_dist_lower_limit": 1.0,
+      "max_dist_upper_limit": 1.0,
+      "max_time": 2.0,
+      "damage": 5.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": true
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": true
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": true
+      },
+      "id": "fire_bat_spot"
+    },
+    {
+      "prefab_name": "golem_spike",
+      "speed": 7.0,
+      "max_dist_lower_limit": 1.0,
+      "max_dist_upper_limit": 4.0,
+      "max_time": 1.0,
+      "damage": 0.0,
+      "pierce": 1,
+      "can_damage_mobs": false,
+      "on_start": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_start",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_combat": {
+        "spawn_wgo": "golem_spike_ev_28",
+        "drop_item": "",
+        "anim_trigger": "on_hit_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_hit_non_combat": {
+        "spawn_wgo": "golem_spike_ev_28",
+        "drop_item": "",
+        "anim_trigger": "on_hit_non_combat",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_out_of_screen": {
+        "spawn_wgo": "",
+        "drop_item": "",
+        "anim_trigger": "on_out_of_screen",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "on_max_dist_reached": {
+        "spawn_wgo": "golem_spike_ev_28",
+        "drop_item": "",
+        "anim_trigger": "on_max_dist_reached",
+        "set_game_res": {},
+        "event_to_fire": "",
+        "sound": "",
+        "anim_driven": false
+      },
+      "id": "golem_spike_ev_28"
+    }
+  ]
+}

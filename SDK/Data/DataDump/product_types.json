@@ -1,0 +1,94 @@
+{
+  "type": "product_types",
+  "count": 22,
+  "data": [
+    {
+      "sort_weight": 300,
+      "id": "garden"
+    },
+    {
+      "sort_weight": 275,
+      "id": "raw_food"
+    },
+    {
+      "sort_weight": 350,
+      "id": "iron_goods"
+    },
+    {
+      "sort_weight": 325,
+      "id": "wood_craft"
+    },
+    {
+      "sort_weight": 0,
+      "id": "ore"
+    },
+    {
+      "sort_weight": 0,
+      "id": "alchemy"
+    },
+    {
+      "sort_weight": 0,
+      "id": "miller"
+    },
+    {
+      "sort_weight": 0,
+      "id": "church"
+    },
+    {
+      "sort_weight": 0,
+      "id": "seeds"
+    },
+    {
+      "sort_weight": 0,
+      "id": "booz"
+    },
+    {
+      "sort_weight": 0,
+      "id": "luxery"
+    },
+    {
+      "sort_weight": 0,
+      "id": "wooden_goods"
+    },
+    {
+      "sort_weight": 0,
+      "id": "stone_goods"
+    },
+    {
+      "sort_weight": 500,
+      "id": "burial"
+    },
+    {
+      "sort_weight": 0,
+      "id": "tavern"
+    },
+    {
+      "sort_weight": 450,
+      "id": "tools_wd"
+    },
+    {
+      "sort_weight": 450,
+      "id": "tools_bs"
+    },
+    {
+      "sort_weight": 0,
+      "id": "paper"
+    },
+    {
+      "sort_weight": 0,
+      "id": "book"
+    },
+    {
+      "sort_weight": 0,
+      "id": "tech"
+    },
+    {
+      "sort_weight": 0,
+      "id": "packet_meat"
+    },
+    {
+      "sort_weight": 0,
+      "id": "paints"
+    }
+  ]
+}

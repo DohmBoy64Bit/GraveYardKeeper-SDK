@@ -1,0 +1,54 @@
+{
+  "type": "prayer_events",
+  "count": 8,
+  "data": [
+    {
+      "people": "GetZoneQ(\"church\")*0.5",
+      "faith": "GetZoneQ(\"church\") * 0.4 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * 0.06",
+      "id": "default"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*1",
+      "faith": "GetZoneQ(\"church\") * 0.2 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "default_0"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*0.5",
+      "faith": "GetZoneQ(\"church\") * 0.2 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "default_1"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*0.34",
+      "faith": "GetZoneQ(\"church\") * 0.2 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "default_2"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*0.34",
+      "faith": "GetZoneQ(\"church\") * 0.2 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "default_3"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*0.5",
+      "faith": "(GetZoneQ(\"church\") + Ppar(\"gratitude_points\"))  * 0.1 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "pray_for_souls_1"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*0.34",
+      "faith": "(GetZoneQ(\"church\") + Ppar(\"gratitude_points\"))  * 0.1 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "pray_for_souls_2"
+    },
+    {
+      "people": "GetZoneQ(\"church\")*0.34",
+      "faith": "(GetZoneQ(\"church\") + Ppar(\"gratitude_points\"))  * 0.1 * (1+0.3*Ppar(\"p_eloquence\"))",
+      "money": "GetZoneQ(\"graveyard\") * (0.03 + 0.01*Ppar(\"p_cardinal\"))",
+      "id": "pray_for_souls_3"
+    }
+  ]
+}

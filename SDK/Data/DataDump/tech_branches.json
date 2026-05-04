@@ -1,0 +1,38 @@
+{
+  "type": "tech_branches",
+  "count": 8,
+  "data": [
+    {
+      "is_locked": false,
+      "id": "1"
+    },
+    {
+      "is_locked": false,
+      "id": "2"
+    },
+    {
+      "is_locked": false,
+      "id": "3"
+    },
+    {
+      "is_locked": false,
+      "id": "4"
+    },
+    {
+      "is_locked": false,
+      "id": "5"
+    },
+    {
+      "is_locked": false,
+      "id": "6"
+    },
+    {
+      "is_locked": false,
+      "id": "7"
+    },
+    {
+      "is_locked": true,
+      "id": "8"
+    }
+  ]
+}

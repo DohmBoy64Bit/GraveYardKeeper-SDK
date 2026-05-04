@@ -1,0 +1,4336 @@
+{
+  "type": "technologies",
+  "count": 187,
+  "data": [
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_furnace_0_place",
+        "ingot_metal"
+      ],
+      "works": [
+        "t_iron_ore_1"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Iron",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_anvil_1",
+        "nails",
+        "detail_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Primitive forging",
+      "_parents": [
+        "Iron"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "glass_0",
+        "@glass_0_1",
+        "@glass_0_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Glass",
+      "_parents": [
+        "Iron"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_anvil_2",
+        "detail_2",
+        "chisel_1",
+        "@chisel_1_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Advanced forging",
+      "_parents": [
+        "Primitive forging"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "shovel_1",
+        "@shovel_1_2",
+        "@shovel_1_3",
+        "pickaxe_1",
+        "@pickaxe_1_2",
+        "@pickaxe_1_3",
+        "axe_1",
+        "@axe_1_2",
+        "@axe_1_3",
+        "@hammer_0"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Instruments",
+      "_parents": [
+        "Primitive forging"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "sword_1",
+        "@sword_1_2",
+        "armor_lamellar_1",
+        "@armor_lamellar_1_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Weapons",
+      "_parents": [
+        "Advanced forging"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_blacksmith"
+      ],
+      "x": 3,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Inborn blacksmith",
+      "_parents": [
+        "Advanced forging"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_furnace_1_place",
+        "@mf_furnace_0_to_1",
+        "ingot_steel",
+        "@ingot_steel_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Advanced smelting",
+      "_parents": [
+        "Primitive forging"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "glass_1",
+        "@glass_1_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Glass-blower",
+      "_parents": [
+        "Glass"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "b_sword",
+        "b_shield",
+        "@b_sword_2",
+        "@b_shield_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_big_guy"
+      ],
+      "x": 4,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Martial skills",
+      "_parents": [
+        "Weapons"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_anvil_3",
+        "@mf_anvil_2_to_3",
+        "chisel_2",
+        "hammer_2",
+        "@chisel_2_2",
+        "@chisel_2a",
+        "@chisel_2b",
+        "@chisel_2_2a",
+        "@chisel_2_2b"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Steel",
+      "_parents": [
+        "Advanced forging",
+        "Advanced smelting"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mining_builddesk::lantern_network",
+        "mining_builddesk:p:lantern_place",
+        "@ingot_metal_huge",
+        "@ingot_metal_1_huge",
+        "@ingot_metal_2_huge"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_fireman"
+      ],
+      "x": 4,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Rules of burning",
+      "_parents": [
+        "Advanced smelting"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "b_star",
+        "@b_star_2",
+        "mf_wood_builddesk::well_pump_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_engineer"
+      ],
+      "x": 5,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Engineer",
+      "_parents": [
+        "Steel"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "axe_2",
+        "shovel_2",
+        "pickaxe_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Steel instruments",
+      "_parents": [
+        "Steel"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "ingot_silver",
+        "@ingot_silver_2",
+        "ingot_gold",
+        "@ingot_gold_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Jeweler",
+      "_parents": [
+        "Iron castings"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "glass_2",
+        "@glass_2_2",
+        "lense"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "@p_t_sand_improve"
+      ],
+      "x": 5,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Glass-blower 2",
+      "_parents": [
+        "Glass-blower"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_furnace_2_place",
+        "@mf_furnace_1_to_2",
+        "detail_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Iron castings",
+      "_parents": [
+        "Advanced smelting"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "sword_steel",
+        "armor_lamellar_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Steel Weapons",
+      "_parents": [
+        "Steel"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "sword_steel_gem",
+        "sword_damask_gem"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Skilled casting",
+      "_parents": [
+        "Steel Weapons"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_sword_master"
+      ],
+      "x": 7,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Sword master",
+      "_parents": [
+        "Steel Weapons"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_industriousness"
+      ],
+      "x": 7,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": true,
+      "requires_dlc": 3,
+      "id": "Industriousness",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_jewelry_place",
+        "jewelry_detail_gold",
+        "bijouterie_gold"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Precious little things",
+      "_parents": [
+        "Jeweler"
+      ]
+    },
+    {
+      "branch_type": 5,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_persistence"
+      ],
+      "x": 7,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": true,
+      "requires_dlc": 3,
+      "id": "Persistence",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_timber_1_place"
+      ],
+      "works": [
+        "t_wood_small",
+        "t_stick"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The idea of the tree",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_stones_1_place",
+        "@mining_builddesk:p:mf_stones_1_place"
+      ],
+      "works": [
+        "t_stone"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The idea of the stone",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [],
+      "works": [
+        "t_sand",
+        "t_clai"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The idea of the earth",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_potter_wheel_1_place",
+        "ceramic_1",
+        "polishing_paste",
+        "@polishing_paste_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Clay",
+      "_parents": [
+        "The idea of the earth"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "ceramic_2",
+        "@ceramic_2_1",
+        "@ceramic_2_2",
+        "ceramic_3",
+        "@ceramic_3_1",
+        "@ceramic_3_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Ceramic firing",
+      "_parents": [
+        "Clay"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_hammer_0_place",
+        "@mining_builddesk:p:mf_hammer_0_place",
+        "stone_plate_1",
+        "@stone_plate_1_2",
+        "repair_stn",
+        "@repair_stn_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Stone processing",
+      "_parents": [
+        "The idea of the stone"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_ore_1_complete",
+        "@mining_builddesk:p:mf_ore_1_complete"
+      ],
+      "works": [
+        "t_coal",
+        "t_iron_ore_2"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Mining",
+      "_parents": [
+        "The idea of the stone"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_beam_gantry_1_place",
+        "flitch",
+        "wood1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Saw",
+      "_parents": [
+        "The idea of the tree"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_workbench_1_place",
+        "wooden_plank",
+        "repair_wdn",
+        "@wooden_plank_3",
+        "@repair_wdn_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Wood processing",
+      "_parents": [
+        "Saw"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_chocks_1",
+        "firewood",
+        "spike_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Firewood",
+      "_parents": [
+        "Saw"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [],
+      "works": [
+        "t_wood_big"
+      ],
+      "phrases": [],
+      "perks": [
+        "p_axeman"
+      ],
+      "x": 3,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Woodcutter",
+      "_parents": [
+        "Firewood"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "graphite",
+        "@graphite_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_t_gold_ore",
+        "p_t_silver_ore"
+      ],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Precious metals",
+      "_parents": [
+        "Mining"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_saw_1_place",
+        "wood_balk_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Circular saw",
+      "_parents": [
+        "Wood processing"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_hammer_1_place",
+        "stone_plate_2",
+        "stone_plate_3",
+        "@stone_plate_2_2",
+        "@stone_plate_2_3",
+        "@stone_plate_2_4",
+        "@stone_plate_3b"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Stone carving",
+      "_parents": [
+        "Stone processing"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_workbench_2_place",
+        "wood_constr_1",
+        "@mf_workbench_1_to_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Assembly stand",
+      "_parents": [
+        "Wood processing"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_t_pyrite",
+        "p_t_sulfur",
+        "p_t_lifestone"
+      ],
+      "x": 4,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Related ore",
+      "_parents": [
+        "Precious metals"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_miner"
+      ],
+      "x": 5,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Scent of gold",
+      "_parents": [
+        "Related ore"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_jevelery"
+      ],
+      "x": 7,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Best friend",
+      "_parents": [
+        "Gems"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "b_star",
+        "@b_star_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_woodworker",
+        "p_mason"
+      ],
+      "x": 6,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Working trick",
+      "_parents": [
+        "Circular saw",
+        "Stone carving"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "marble_plate_1",
+        "repair_mrb",
+        "@repair_mrb_2",
+        "@marble_plate_1_2"
+      ],
+      "works": [
+        "t_marble"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Marble Quarrying",
+      "_parents": [
+        "Stone carving"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [],
+      "works": [
+        "t_diamond"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Gems",
+      "_parents": [
+        "Related ore"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "carved_wood"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Wooden work",
+      "_parents": [
+        "Assembly stand"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "marble_plate_2",
+        "marble_plate_3",
+        "@marble_plate_2_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The art of stone",
+      "_parents": [
+        "Marble Quarrying"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mining_builddesk::zombie_mine_bench_left",
+        "@mining_builddesk::zombie_mine_bench_right"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie mining",
+      "_parents": [
+        "Mining"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "zombie_sawmill_unfinished_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie woodcuttering",
+      "_parents": [
+        "Woodcutter"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mining_builddesk::zombie_mine_fence_front_stone",
+        "@mining_builddesk::zombie_mine_fence_left_front_stone"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie quarrying I",
+      "_parents": [
+        "Stone carving"
+      ]
+    },
+    {
+      "branch_type": 6,
+      "price": {},
+      "crafts": [
+        "mining_builddesk::zombie_mine_fence_front_marble_right",
+        "@mining_builddesk::zombie_mine_fence_front_marble_left"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie quarrying II",
+      "_parents": [
+        "Zombie quarrying I",
+        "Marble Quarrying"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:mf_alchemy_survey_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_t_old_books",
+        "p_naturalist"
+      ],
+      "x": 0,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Research",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:desk",
+        "notes",
+        "@notes_2",
+        "chapter",
+        "@chapter_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Writing",
+      "_parents": [
+        "Research"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:obj_church_scroll_cabinet_place",
+        "ink_jar",
+        "ink_pen"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Writing supplies",
+      "_parents": [
+        "Paper crafting"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:table_book_constr_place",
+        "skroll_skin_pig",
+        "@skroll_skin_pig_2",
+        "paper_bad"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Paper crafting",
+      "_parents": [
+        "Research"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_paper_press_place",
+        "paper_from_herb",
+        "pail_wet_paper"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Paper production",
+      "_parents": [
+        "Writer inspiration"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:mf_printing_press_place",
+        "@flyer_good",
+        "@flyer_good_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "A simple printing press",
+      "_parents": [
+        "Paper production"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:mf_printing_press_2_place",
+        "@mf_printing_press_1_to_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Complex printing press",
+      "_parents": [
+        "A simple printing press"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "cover_1",
+        "cover_hard",
+        "book_hard",
+        "@book_hard_2",
+        "@cover_hard_2",
+        "@cover_hard_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Books",
+      "_parents": [
+        "Writing"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "story",
+        "@story_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Inventing storyes",
+      "_parents": [
+        "Writing"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "b_pen",
+        "@b_pen_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_writer"
+      ],
+      "x": 3,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Writing tricks",
+      "_parents": [
+        "Inventing storyes"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:obj_church_bookcase_place",
+        "alchemy_builddesk:p:desk_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Writer inspiration",
+      "_parents": [
+        "Writing supplies"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_good_writer"
+      ],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Playwright",
+      "_parents": [
+        "Books"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_journalist"
+      ],
+      "x": 1,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Journalist",
+      "_parents": [
+        "Research"
+      ]
+    },
+    {
+      "branch_type": 3,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:zombie_pulpit"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Random text generator",
+      "_parents": [
+        "Inventing storyes"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "garden_builddesk:p:garden_empty_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Garden beds",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "garden_builddesk:p:mf_box_stuff_place",
+        "@mining_builddesk:p:mf_box_stuff_place",
+        "@vineyard_builddesk:p:mf_box_stuff_place",
+        "@graveyard_builddesk:p:mf_box_stuff_place",
+        "@cremation_builddesk:p:mf_box_stuff_place",
+        "garden_builddesk:p:garden_empty_stick_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Improvement",
+      "_parents": [
+        "Garden beds"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [],
+      "works": [
+        "t_mushroom",
+        "t_berry",
+        "t_apple"
+      ],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Gathering",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [],
+      "works": [
+        "t_mushroom2"
+      ],
+      "phrases": [],
+      "perks": [
+        "p_collector"
+      ],
+      "x": 1,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The master gathering",
+      "_parents": [
+        "Gathering"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "tree_garden_builddesk:p:bush_berry_garden_place",
+        "tree_garden_builddesk:p:tree_apple_garden_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Transplanting",
+      "_parents": [
+        "Gathering"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "honey_production"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_t_beeswax"
+      ],
+      "x": 1,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Browncastle",
+      "_parents": [
+        "Gathering"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "b_plant",
+        "@b_plant_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_farmer"
+      ],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Gardening",
+      "_parents": [
+        "Improvement"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_t_butterfly",
+        "p_t_moth",
+        "p_t_bee"
+      ],
+      "x": 2,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Insects",
+      "_parents": [
+        "Browncastle"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "garden_builddesk:p:v_obj_compost_heap_place",
+        "peat_from_waste"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_t_maggot"
+      ],
+      "x": 3,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Decay",
+      "_parents": [
+        "Garden beds"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "garden_builddesk:p:zombie_garden_desk_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie gardening",
+      "_parents": [
+        "Gardening"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "vineyard_builddesk:p:vineyard_grapes_stick_place",
+        "garden_grapes_growing",
+        "garden_hop_growing"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Grape farming",
+      "_parents": [
+        "Transplanting"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "beegarden_table:p:beehouse_place",
+        "@beegarden_table"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The domestication of bees",
+      "_parents": [
+        "Insects"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "sack_clock_silver",
+        "sack_star_silver"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Simple fertilizers",
+      "_parents": [
+        "Decay"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "cellar_builddesk:p:brewing_stand_place",
+        "cup_beer"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Brewing",
+      "_parents": [
+        "Decay"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "vineyard_builddesk:p:zombie_vineyard_desk_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie vineyard",
+      "_parents": [
+        "Grape farming"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_beekeeper2"
+      ],
+      "x": 4,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Beefriend",
+      "_parents": [
+        "The domestication of bees"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "cellar_builddesk:p:barrel_brew_place",
+        "bottle_apple_braga",
+        "bottle_berry_braga"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Digestion",
+      "_parents": [
+        "Brewing"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "cellar_builddesk:p:mf_zombie_brewing_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie brewing",
+      "_parents": [
+        "Brewing"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "mf_wood_builddesk:p:mf_vine_press_place",
+        "@cellar_builddesk:p:mf_vine_press_place",
+        "cellar_builddesk:p:mf_barrel_mid_place",
+        "bottle_red_vine"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Winemaking",
+      "_parents": [
+        "Grape farming"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "sack_clock_gold",
+        "sack_star_gold"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Complex fertilizers",
+      "_parents": [
+        "Simple fertilizers"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "cellar_builddesk:p:mf_zombie_winemaking_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie winemaking",
+      "_parents": [
+        "Winemaking"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [
+        "cellar_builddesk:p:mf_distcube_3_place",
+        "booze_from_bottle_apple_braga",
+        "@booze_from_bottle_berry_braga",
+        "@booze_from_bottle_red_vine_1",
+        "@booze_from_bottle_red_vine_2",
+        "@booze_from_bottle_red_vine_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Strong alcohol",
+      "_parents": [
+        "Brewing",
+        "Winemaking"
+      ]
+    },
+    {
+      "branch_type": 4,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_wine_master"
+      ],
+      "x": 7,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Blending",
+      "_parents": [
+        "Strong alcohol"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "morgue_builddesk:p:mf_preparation_1_place",
+        "morgue_builddesk:p:corpse_bed_place",
+        "ex:mf_preparation_1:flesh",
+        "@ex:mf_preparation_2:flesh"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "tech_first_slice",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "First slice",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:mf_alchemy_craft_02_place",
+        "alchemy_builddesk:p:mf_alchemy_stirrer_01_place",
+        "alchemy_builddesk:p:mf_alchemy_mill_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "tech_alchemy_begins",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "The Beginning Of Alchemy",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "ex:mf_preparation_1:skull",
+        "ex:mf_preparation_1:bone",
+        "@ex:mf_preparation_2:skull",
+        "@ex:mf_preparation_2:bone",
+        "ex:mf_preparation_1:skin",
+        "@ex:mf_preparation_2:skin"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Hardspares",
+      "_parents": [
+        "First slice"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "ex:mf_preparation_1:blood",
+        "ex:mf_preparation_1:fat",
+        "@ex:mf_preparation_2:blood",
+        "@ex:mf_preparation_2:fat"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Softspares",
+      "_parents": [
+        "First slice"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:table_book_constr_place",
+        "embalm_-1_-1",
+        "embalm_1_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Embalm 1",
+      "_parents": [
+        "The Beginning Of Alchemy"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:rack_alchemy_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Alchemy storage",
+      "_parents": [
+        "The Beginning Of Alchemy"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_butcher"
+      ],
+      "x": 2,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Gentle butcher",
+      "_parents": [
+        "Hardspares",
+        "Softspares"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "morgue_builddesk:p:mf_balsamation_1_place",
+        "morgue_builddesk:p:rack_organs_place",
+        "b_skull",
+        "@b_skull_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Embalming",
+      "_parents": [
+        "First slice",
+        "Embalm 1"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:mf_alchemy_craft_03_place",
+        "alchemy_builddesk:p:mf_distcube_2_clay_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Advanced alchemy",
+      "_parents": [
+        "Alchemy storage"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "ex:mf_preparation_1:brain",
+        "@ex:mf_preparation_2:brain",
+        "ex:mf_preparation_1:heart",
+        "@ex:mf_preparation_2:heart",
+        "ex:mf_preparation_1:intestine",
+        "@ex:mf_preparation_2:intestine"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Important parts",
+      "_parents": [
+        "Softspares"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "morgue_builddesk:p:mf_balsamation_2_place",
+        "morgue_builddesk:p:corpse_fridge_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Embalming 2",
+      "_parents": [
+        "Embalming"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "embalm_0_1",
+        "embalm_stop",
+        "embalm_50"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Embalm 2",
+      "_parents": [
+        "Embalm 1",
+        "Advanced alchemy"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_alchemy"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "tech_bag_alchemy",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_alchemy",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "morgue_builddesk:p:mf_preparation_2_place",
+        "morgue_builddesk:p:corpse_bed_big_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Anatomy 2",
+      "_parents": [
+        "Important parts"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "morgue_builddesk:p:zombie_crafting_table_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Second chance",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "embalm_2_0",
+        "embalm_-1_1",
+        "embalm_-2_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Embalm 3",
+      "_parents": [
+        "Embalm 2"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:mf_distcube_2_cuprum_place",
+        "@upgr_to_mf_distcube_2_cuprum"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Distilate",
+      "_parents": [
+        "Advanced alchemy"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_doctor"
+      ],
+      "x": 5,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Surgery",
+      "_parents": [
+        "Anatomy 2"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "ex:mf_preparation_1:brain_dark",
+        "@ex:mf_preparation_2:brain_dark",
+        "ex:mf_preparation_1:heart_dark",
+        "@ex:mf_preparation_2:heart_dark",
+        "ex:mf_preparation_1:intestine_dark",
+        "@ex:mf_preparation_2:intestine_dark"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Dark body",
+      "_parents": [
+        "Anatomy 2"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "mining_builddesk:p:porter_station"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "unlocked_zombie_logistic",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie logistic",
+      "_parents": [
+        "Second chance"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_scientist"
+      ],
+      "x": 5,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Master of alchemy",
+      "_parents": [
+        "Distilate"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "alchemy_builddesk:p:alchemy_table_zombie_place",
+        "alchemy_builddesk:p:alchemy_workbench_zombie_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 1,
+      "id": "Zombie alchemy",
+      "_parents": [
+        "Distilate"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_farming"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "tech_bag_farming",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_farming",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_cultist"
+      ],
+      "x": 6,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Tech_cultist",
+      "_parents": [
+        "Dark body"
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_fishing"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_bag_fishing",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_fishing",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_tools"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "tech_bag_tools",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_tools",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_universal"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_universal",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_potions"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_potions",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_builder"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_builder",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_food"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_food",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 1,
+      "price": {},
+      "crafts": [
+        "bag_universal_big"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "tech_bag_universal_big",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "b_faith",
+        "@b_faith_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_preacher"
+      ],
+      "x": 0,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Faith",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_top_wd_tab_1",
+        "@grave_top_wd_tab_1_2",
+        "@grave_top_wd_tab_1_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Grave plate",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:candelabrum_1",
+        "candle_1",
+        "candle_3",
+        "@church_builddesk:p:wall_candelabrum_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Light of faith",
+      "_parents": [
+        "Faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:church_bench"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Сomfort of faith",
+      "_parents": [
+        "Faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "flyer_bad",
+        "@flyer_bad_2",
+        "b_village",
+        "@b_village_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Faithbuisness",
+      "_parents": [
+        "Faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_wd_1",
+        "grave_top_wd_cross_1",
+        "grave_top_stn_plate_1",
+        "@grave_bot_wd_1_2",
+        "@grave_top_wd_cross_1_2",
+        "@grave_top_stn_plate_1_2",
+        "@destroy_wd_cross",
+        "@destroy_wd_cross_2",
+        "@destroy_wd_fence",
+        "@destroy_grave_top_stn_plate_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Simple gravestones",
+      "_parents": [
+        "Grave plate"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:church_budka_1_place",
+        "church_builddesk:p:church_table_1_place",
+        "b_sins",
+        "@b_sins_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Power of faith",
+      "_parents": [
+        "Сomfort of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "b_money",
+        "b_faith_money",
+        "@b_faith_money_2",
+        "@b_money_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_cardinal"
+      ],
+      "x": 2,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Price of faith",
+      "_parents": [
+        "Faithbuisness"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "cremation_builddesk:p:mf_pyre_placed",
+        "funeral_urn_1",
+        "graveyard_builddesk:p:columbarium_stone_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Corpses burning",
+      "_parents": [
+        "Simple gravestones"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_stn_1",
+        "grave_top_stn_cross_1",
+        "grave_top_stn_plate_2",
+        "@grave_bot_stn_1_2",
+        "@destroy_grave_bot_stn_1",
+        "@destroy_grave_top_stn_cross_1",
+        "@destroy_grave_top_stn_plate_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Stone gravestones",
+      "_parents": [
+        "Simple gravestones"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:candelabrum_2",
+        "candle_4",
+        "church_builddesk:p:church_window_1",
+        "@church_builddesk:p:wall_candelabrum_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Illumination of faith",
+      "_parents": [
+        "Light of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:c_obj_incense_1_place",
+        "incense_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Smell of faith",
+      "_parents": [
+        "Power of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "graveyard_builddesk:p:pray_stand_wd_place",
+        "graveyard_builddesk:p:grass_sward_2x3",
+        "@graveyard_builddesk:p:grass_sward_2x4",
+        "@graveyard_builddesk:p:grass_sward_2x6"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Praying stand",
+      "_parents": [
+        "Corpses burning"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_stn_2",
+        "grave_top_stn_cross_2",
+        "grave_top_stella_stn_1",
+        "@destroy_grave_bot_stn_2",
+        "@destroy_grave_top_stella_stn_1",
+        "@destroy_grave_top_stn_cross_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Carved gravestones",
+      "_parents": [
+        "Stone gravestones"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:church_bench_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Softness of faith",
+      "_parents": [
+        "Power of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "funeral_urn_2",
+        "graveyard_builddesk:p:columbarium_marble_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Corpses burning 2",
+      "_parents": [
+        "Praying stand"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_top_sculpt_stn_1",
+        "grave_top_sculpt_stn_2",
+        "@destroy_grave_top_sculpt_stn_1",
+        "@destroy_grave_top_sculpt_stn_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Grave monuments",
+      "_parents": [
+        "Carved gravestones"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:church_budka_2_place",
+        "church_builddesk:p:church_table_2_place"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Superpower of faith",
+      "_parents": [
+        "Softness of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:c_obj_incense_2_place",
+        "incense_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Pheromones",
+      "_parents": [
+        "Smell of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "graveyard_builddesk:p:pray_stand_stn_place",
+        "graveyard_builddesk:p:road_marble",
+        "graveyard_builddesk:p:lantern_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Stone praying stand",
+      "_parents": [
+        "Corpses burning 2"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_mrb_1",
+        "grave_top_mrb_cross_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Marble gravestones",
+      "_parents": [
+        "Grave monuments"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "church_builddesk:p:candelabrum_3",
+        "@church_builddesk:p:wall_candelabrum_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Shining of faith",
+      "_parents": [
+        "Illumination of faith",
+        "Superpower of faith"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [],
+      "works": [],
+      "phrases": [],
+      "perks": [
+        "p_eloquence"
+      ],
+      "x": 6,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": true,
+      "requires_dlc": 3,
+      "id": "Eloquence",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_stn_3",
+        "grave_bot_stn_4",
+        "grave_top_memorial_stn_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_advanced_gravestones",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Advanced gravestones",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_mrb_2",
+        "grave_top_mrb_cross_2",
+        "grave_top_stella_mrb_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Carved marble gravestones",
+      "_parents": [
+        "Marble gravestones"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_top_sculpt_mrb_1",
+        "grave_top_sculpt_mrb_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 6,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Crypts",
+      "_parents": [
+        "Marble gravestones"
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_stn_5",
+        "grave_top_memorial_mrb_1",
+        "grave_bot_mrb_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_advanced_gravestones_2",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Advanced gravestones II",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_top_womansaver_stn_1",
+        "grave_top_highangel_stn_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 7,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "tech_stone_statues",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Stone statues",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_top_womansaver_mrb_1",
+        "grave_top_highangel_mrb_1"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 8,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Marble statues",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 2,
+      "price": {},
+      "crafts": [
+        "grave_bot_mrb_4",
+        "grave_bot_mrb_5"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 8,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Marble fences",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "baked_kebab_7",
+        "baked_apple",
+        "@t_baked_apple",
+        "@t_baked_kebab_7"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "2min",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "cutlet_carrot",
+        "bowl_sauerkraut",
+        "beet_slice",
+        "@t_bowl_sauerkraut",
+        "@t_beet_slice",
+        "@t_cutlet_carrot"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Vegetable dishes",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "jelly_green",
+        "jelly_red",
+        "@t_jelly_green",
+        "@t_jelly_red"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Jelly",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "dough",
+        "dough_2",
+        "bread",
+        "@t_bread",
+        "@flour_from_wheat",
+        "@t_flour_from_wheat",
+        "@t_dough",
+        "@t_dough_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Bread",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "baked_fish",
+        "soup_fish",
+        "nuggets_fish",
+        "@t_nuggets_fish",
+        "@t_soup_fish",
+        "@t_baked_fish"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Fish",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "pancakes",
+        "croissant",
+        "muffin",
+        "@t_pancakes",
+        "@t_muffin",
+        "@t_croissant"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Sweet baking",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "soup_red_green",
+        "soup_red_yellow",
+        "soup_yellow_green",
+        "@t_soup_red_green",
+        "@t_soup_red_yellow",
+        "@t_soup_yellow_green"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Vegetable soups",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "omlette",
+        "fried_egg",
+        "@t_fried_egg",
+        "@t_omlette"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "French cuisine",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "lasagne",
+        "pasta",
+        "@t_lasagne",
+        "@t_pasta"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Italian kitchen",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "baked_kebab_1",
+        "baked_kebab_2",
+        "baked_kebab_5",
+        "@t_baked_kebab_1",
+        "@t_baked_kebab_2",
+        "@t_baked_kebab_5"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Fish shish kebab",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "pie_1",
+        "pie_2",
+        "@t_pie_1",
+        "@t_pie_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Pies",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "bowl_pumpkin",
+        "baked_pumpkin",
+        "bowl_lentil",
+        "@t_baked_pumpkin",
+        "@t_bowl_lentil",
+        "@t_bowl_pumpkin"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Vegetable bowl",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "burger",
+        "sandwich",
+        "@raw_meat_sliced_from_flesh",
+        "@t_raw_meat_sliced_from_flesh",
+        "@t_sandwich",
+        "baked_meat",
+        "@t_baked_meat",
+        "@t_burger"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Fast food",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "onion_ring",
+        "toasts",
+        "@t_toasts",
+        "@t_onion_ring"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "For beer",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "baked_salmon",
+        "honey_fish",
+        "@t_baked_salmon",
+        "@t_honey_fish"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Fish delicous",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "pie",
+        "@t_pie"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Desert",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "cup_mead"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "Alcohol cook",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "grated_carrot",
+        "grated_beetroot",
+        "boiled_egg"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Simple snacks",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "vegetable_salad",
+        "vegetable_stew",
+        "creamy_vegetable_soup"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "tech_vegetables_set",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Vegetable set",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "cheese",
+        "butter",
+        "cream_of_mushroom_soup"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "tech_milk_processing",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Milk processing",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "lentil_porridge",
+        "greek_lentil_soup",
+        "lentil_cutlets"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "tech_in_lentils_we_trust",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "In Lentil We Trust",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "vegetable_patty",
+        "mushroom_patty",
+        "сheese_patty"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Patties",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "cheese_pie",
+        "cheesecake"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Cheese dishes",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "panna_cotta",
+        "honey_pudding",
+        "berry_pudding"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Jelly desserts",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 7,
+      "price": {},
+      "crafts": [
+        "honey_cake"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 4.0,
+      "icon": "",
+      "flowscript": "tech_honey_cake",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 3,
+      "id": "Honey cake",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk:p:soul_container_place",
+        "souls_builddesk::soul_workbench"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 0,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_soul_sins_1",
+      "hidden": true,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_sins_1",
+      "_parents": [
+        ""
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk::pride_healing_extension",
+        "fake_global_craft"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 1,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_soul_sins_2",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_sins_2",
+      "_parents": [
+        "soul_sins_1"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "grave_bot_stn_6",
+        "grave_bot_stn_7",
+        "grave_bot_stn_8"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_stone_fences",
+      "_parents": [
+        "soul_sins_2"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk:p:soul_container_2_place",
+        "souls_builddesk::soul_extractor_upgrd_to_2"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_buildings",
+      "_parents": [
+        "soul_sins_2"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "grave_bot_mrb_6",
+        "grave_bot_mrb_7",
+        "grave_bot_mrb_8"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_marble_fences",
+      "_parents": [
+        "soul_stone_fences"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk::wrath_healing_extension",
+        "souls_builddesk::gluttony_healing_extension"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 3,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_soul_sins_3",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_sins_3",
+      "_parents": [
+        "soul_buildings"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "grave_top_sculpt_stn_4",
+        "grave_top_sculpt_stn_5"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_stone_statues",
+      "_parents": [
+        "soul_sins_3"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "grave_top_sculpt_mrb_4",
+        "grave_top_sculpt_mrb_5"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 0.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_marble_statues",
+      "_parents": [
+        "soul_stone_statues"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk:p:soul_container_3_place",
+        "souls_builddesk::soul_extractor_upgrd_to_3"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_buildings_2",
+      "_parents": [
+        "soul_sins_3"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk::sloth_healing_extension",
+        "souls_builddesk::lust_healing_extension",
+        "souls_builddesk::envy_healing_extension"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 5,
+      "y": 2.0,
+      "icon": "",
+      "flowscript": "tech_soul_sins_4",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_sins_4",
+      "_parents": [
+        "soul_buildings_2"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "b_souls",
+        "b_grat_points_incr",
+        "b_sin_shard"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_church_additions",
+      "_parents": [
+        "soul_sins_2"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "souls_builddesk:p:mf_crematorium",
+        "souls_builddesk::soul_totem_souls"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 2,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "unlock_totems",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_totem_tech",
+      "_parents": [
+        "soul_sins_2"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "story_souls",
+        "chapter_souls",
+        "book_hard_souls"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 1.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_writing_additions",
+      "_parents": [
+        "soul_sins_3"
+      ]
+    },
+    {
+      "branch_type": 8,
+      "price": {},
+      "crafts": [
+        "sack_clock_silver_souls",
+        "@sack_clock_gold_souls",
+        "sack_star_silver_souls",
+        "@sack_star_gold_souls"
+      ],
+      "works": [],
+      "phrases": [],
+      "perks": [],
+      "x": 4,
+      "y": 3.0,
+      "icon": "",
+      "flowscript": "",
+      "hidden": false,
+      "invisible": false,
+      "requires_dlc": 0,
+      "id": "soul_garden_additions",
+      "_parents": [
+        "soul_sins_3"
+      ]
+    }
+  ]
+}

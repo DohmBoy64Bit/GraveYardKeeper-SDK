@@ -1,0 +1,18 @@
+{
+  "type": "works",
+  "count": 3,
+  "data": [
+    {
+      "reward": {},
+      "id": "axe_1"
+    },
+    {
+      "reward": {},
+      "id": "shovel_1"
+    },
+    {
+      "reward": {},
+      "id": "pickaxe_1"
+    }
+  ]
+}

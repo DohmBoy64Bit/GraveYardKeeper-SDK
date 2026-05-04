@@ -1,0 +1,456 @@
+{
+  "type": "world_zones",
+  "count": 45,
+  "data": [
+    {
+      "calc_method": 1,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "slava_test"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "garden_group",
+      "zone_params": {},
+      "id": "garden"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(wskull)",
+      "hud_descr_str": "zone_grv_descr_hud",
+      "gui_descr_str": "zone_grv_descr_gui",
+      "string_format": "@{0:0.#}",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "graveyard"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "church_group",
+      "zone_params": {},
+      "id": "alchemy"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "home_group",
+      "zone_params": {},
+      "id": "mf_wood"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(cross)",
+      "hud_descr_str": "zone_church_descr_hud",
+      "gui_descr_str": "zone_church_descr_gui",
+      "string_format": "@{0:0.#}",
+      "zone_group": "church_group",
+      "zone_params": {},
+      "id": "church"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "home_group",
+      "zone_params": {},
+      "id": "cellar"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(body)",
+      "hud_descr_str": "zone_morgue_descr_hud",
+      "gui_descr_str": "zone_morgue_descr_gui",
+      "string_format": "@ {$cur_bodies_count:0} / {0:0}",
+      "zone_group": "morgue_group",
+      "zone_params": {},
+      "id": "morgue"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(body)",
+      "hud_descr_str": "zone_morgue_descr_hud",
+      "gui_descr_str": "zone_morgue_descr_gui",
+      "string_format": "@ {$cur_bodies_count:0} / %morgue",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "morgue_outside"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "cabinet"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "home_group",
+      "zone_params": {},
+      "id": "home"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "farm"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "hill"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "tavern"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "vilage"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "flat_under_waterflow"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "flat_under_waterflow_2"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "flat_under_waterflow_3"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "swamp"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "witch_hut"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "wheat_land"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "beatch"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "forest_under_village"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "east_border"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "sealight"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "vineyard_group",
+      "zone_params": {},
+      "id": "vineyard"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "camp"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "beegarden"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "tree_garden"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "marble_deposit"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "quarry_group",
+      "zone_params": {},
+      "id": "stone_workyard"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(fame)",
+      "hud_descr_str": "zone_storage_descr_hud",
+      "gui_descr_str": "zone_storage_descr_gui",
+      "string_format": "@{0:0.#}",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "storage"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(pntgrm)",
+      "hud_descr_str": "zone_sacrifice_descr_hud",
+      "gui_descr_str": "zone_sacrifice_descr_gui",
+      "string_format": "@{0:0.#}",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "sacrifice"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "burned_house"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "nountain_fort"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "cremation"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "cliff"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "zombie_sawmill"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "cellar_storage"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "tavern_group",
+      "zone_params": {},
+      "id": "player_tavern_cellar"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(tavern)",
+      "hud_descr_str": "zone_players_tavern_descr_hud",
+      "gui_descr_str": "zone_players_tavern_descr_gui",
+      "string_format": "@{0:0.#}",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "players_tavern"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(refugee_happiness_slot)",
+      "hud_descr_str": "zone_refugees_descr_hud",
+      "gui_descr_str": "zone_refugees_descr_gui",
+      "string_format": "@{$cur_refugee_happiness:0.##} / {0:0}",
+      "zone_group": "refugee_group",
+      "zone_params": {},
+      "id": "refugees_camp"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "alarich_tent_inside"
+    },
+    {
+      "calc_method": 1,
+      "quality_icon": "(soul_zone_capacity)",
+      "hud_descr_str": "zone_soul_descr_hud",
+      "gui_descr_str": "zone_soul_descr_gui",
+      "string_format": "@{$gratitude_points:0} / {0:0}",
+      "zone_group": "morgue_group",
+      "zone_params": {},
+      "id": "souls"
+    },
+    {
+      "calc_method": 0,
+      "quality_icon": "",
+      "hud_descr_str": "",
+      "gui_descr_str": "",
+      "string_format": "",
+      "zone_group": "",
+      "zone_params": {},
+      "id": "euric_room"
+    }
+  ]
+}

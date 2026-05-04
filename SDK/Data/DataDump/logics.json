@@ -1,0 +1,1472 @@
+{
+  "type": "logics",
+  "count": 81,
+  "data": [
+    {
+      "condition": "1-Ppar(\"donkey_on_scene\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "AddPpar(\"donkeys\", 1)"
+      ],
+      "execute_scripts": [
+        ":donkey_start"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 3.5,
+      "period_time": 1.0,
+      "id": "donkey"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "red_eye_talk_1"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.8,
+      "period_time": 0.0,
+      "id": "red_eye_call_1"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 1)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_remove"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.9,
+      "period_time": 6.0,
+      "id": "bishop_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 6)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_spawn"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.1,
+      "period_time": 6.0,
+      "id": "actress_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 6)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_remove"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.9,
+      "period_time": 6.0,
+      "id": "actress_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 5)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_spawn"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 3.1,
+      "period_time": 6.0,
+      "id": "merchant_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 5)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_remove"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 3.75,
+      "period_time": 6.0,
+      "id": "merchant_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 4)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_spawn"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 3.9,
+      "period_time": 6.0,
+      "id": "cultist_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 4)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_remove"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 4.65,
+      "period_time": 6.0,
+      "id": "cultist_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 3)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_spawn"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 5.1,
+      "period_time": 6.0,
+      "id": "inquisitor_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 3)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_remove"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 5.8,
+      "period_time": 6.0,
+      "id": "inquisitor_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 2)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_spawn"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 5.9,
+      "period_time": 6.0,
+      "id": "astrologer_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 2)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_remove"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 6.8,
+      "period_time": 6.0,
+      "id": "astrologer_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"cur_key_char\", 1)"
+      ],
+      "execute_scripts": [
+        ":on_key_char_spawn"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 6.9,
+      "period_time": 6.0,
+      "id": "bishop_spawn"
+    },
+    {
+      "condition": "Ppar(\"everyday_cultist_come\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_cultist",
+          "event_name": "custom_cultist_spawn"
+        }
+      ],
+      "start_time": 1.9,
+      "period_time": 1.0,
+      "id": "custom_cultist_spawn"
+    },
+    {
+      "condition": "Ppar(\"everyday_cultist_come\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_cultist",
+          "event_name": "custom_cultist_remove"
+        }
+      ],
+      "start_time": 2.35,
+      "period_time": 1.0,
+      "id": "custom_cultist_remove"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "on_evening_came"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.875,
+      "period_time": 1.0,
+      "id": "evening_came"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "on_morning_came"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.375,
+      "period_time": 1.0,
+      "id": "morning_came"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "on_spawn_bat_test"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.8,
+      "period_time": 1.0,
+      "id": "spawn_bat_test"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "on_spawn_slime_test"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.3,
+      "period_time": 1.0,
+      "id": "spawn_slime_test"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"do_spawn_rednecks\", 1)"
+      ],
+      "execute_scripts": [
+        ":walking_in_tavern"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 3.2,
+      "period_time": 1.0,
+      "id": "morning_rednecks_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"do_spawn_rednecks\", 1)"
+      ],
+      "execute_scripts": [
+        ":walking_in_tavern"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.5,
+      "period_time": 0.0,
+      "id": "rednecks_spawn_first_time"
+    },
+    {
+      "condition": "Ppar(\"rednecks_spawned\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":walking_in_tavern"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.7,
+      "period_time": 0.05,
+      "id": "rednecks_walking_in_tavern"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"do_remove_rednecks\", 1)"
+      ],
+      "execute_scripts": [
+        ":walking_in_tavern"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.75,
+      "period_time": 1.0,
+      "id": "evening_rednecks_remove"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "mrs_chain_walking_in_tavern"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.275,
+      "period_time": 0.1,
+      "id": "mrs_chain_walking_in_tavern"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_guard_5",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 1.55,
+      "period_time": 0.0,
+      "id": "npc_guard_5_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"confession_probability\", 0.15)"
+      ],
+      "execute_scripts": [
+        "church_budka_roll"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.0,
+      "period_time": 1.0,
+      "id": "church_budka_roll"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "village_hut_1",
+          "event_name": "Enable"
+        }
+      ],
+      "start_time": 2.3,
+      "period_time": 1.0,
+      "id": "village_house_3_chicken_enable"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "village_hut_1",
+          "event_name": "Disable"
+        }
+      ],
+      "start_time": 1.9,
+      "period_time": 1.0,
+      "id": "village_house_3_chicken_disable"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "sealman_house",
+          "event_name": "Enable"
+        }
+      ],
+      "start_time": 2.3,
+      "period_time": 1.0,
+      "id": "sealman_house_cow_enable"
+    },
+    {
+      "condition": "0",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "sealman_house",
+          "event_name": "Disable"
+        }
+      ],
+      "start_time": 1.9,
+      "period_time": 1.0,
+      "id": "sealman_house_cow_disable"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_miller",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 2.26,
+      "period_time": 1.0,
+      "id": "spawn_miller"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_miller",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.96,
+      "period_time": 1.0,
+      "id": "despawn_miller"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_guard_torch",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 1.75,
+      "period_time": 1.0,
+      "id": "spawn_guard_torch"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_guard_torch",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.15,
+      "period_time": 1.0,
+      "id": "despawn_guard_torch"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_engineer",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.25,
+      "period_time": 1.0,
+      "id": "spawn_engineer"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_engineer",
+          "event_name": "do_behavior"
+        }
+      ],
+      "start_time": 2.3,
+      "period_time": 0.25,
+      "id": "do_behavior_engineer"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_engineer",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.95,
+      "period_time": 1.0,
+      "id": "despawn_engineer"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_alice",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.28,
+      "period_time": 1.0,
+      "id": "spawn_alice"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_alice",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.78,
+      "period_time": 1.0,
+      "id": "despawn_alice"
+    },
+    {
+      "condition": "Ppar(\"storage_available\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "storage_process_merchant_traiding"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 9.75,
+      "period_time": 6.0,
+      "id": "storage_process_merchant_traiding"
+    },
+    {
+      "condition": "Ppar(\"appear_hunchback\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_hunchback",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.7,
+      "period_time": 1.0,
+      "id": "spawn_hunchback"
+    },
+    {
+      "condition": "Ppar(\"appear_hunchback\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_hunchback",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 4.2,
+      "period_time": 1.0,
+      "id": "despawn_hunchback"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_blacksmith",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.3,
+      "period_time": 1.0,
+      "id": "spawn_blacksmith"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_blacksmith",
+          "event_name": "do_behavior"
+        }
+      ],
+      "start_time": 3.35,
+      "period_time": 0.25,
+      "id": "do_behavior_blacksmith"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_blacksmith",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.0,
+      "period_time": 1.0,
+      "id": "despawn_blacksmith"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_potter",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.31,
+      "period_time": 1.0,
+      "id": "spawn_potter"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_potter",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.01,
+      "period_time": 1.0,
+      "id": "despawn_potter"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_beekeeper",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.32,
+      "period_time": 1.0,
+      "id": "spawn_beekeeper"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_beekeeper",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.02,
+      "period_time": 1.0,
+      "id": "despawn_beekeeper"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_rosa",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.24,
+      "period_time": 1.0,
+      "id": "spawn_rosa"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_rosa",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.94,
+      "period_time": 1.0,
+      "id": "despawn_rosa"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_shepherd",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.35,
+      "period_time": 1.0,
+      "id": "spawn_shepherd"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_shepherd",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.05,
+      "period_time": 1.0,
+      "id": "despawn_shepherd"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_lightkeeper",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.36,
+      "period_time": 1.0,
+      "id": "spawn_lightkeeper"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_lightkeeper",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.06,
+      "period_time": 1.0,
+      "id": "despawn_lightkeeper"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_witch",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.38,
+      "period_time": 1.0,
+      "id": "spawn_witch"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_witch",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.08,
+      "period_time": 1.0,
+      "id": "despawn_witch"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_carpenter",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.29,
+      "period_time": 1.0,
+      "id": "spawn_carpenter"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_carpenter",
+          "event_name": "do_behavior"
+        }
+      ],
+      "start_time": 3.3,
+      "period_time": 0.25,
+      "id": "do_behavior_carpenter"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_carpenter",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.99,
+      "period_time": 1.0,
+      "id": "despawn_carpenter"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_farmer",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.39,
+      "period_time": 1.0,
+      "id": "spawn_farmer"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_farmer",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 3.09,
+      "period_time": 1.0,
+      "id": "despawn_farmer"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_farmers_son",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.24,
+      "period_time": 1.0,
+      "id": "npc_farmers_son_spawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_farmers_son",
+          "event_name": "do_behavior"
+        }
+      ],
+      "start_time": 3.3,
+      "period_time": 0.25,
+      "id": "npc_farmers_son_do_behavior"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_farmers_son",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.94,
+      "period_time": 1.0,
+      "id": "npc_farmers_son_despawn"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_dig",
+          "event_name": "spawn"
+        }
+      ],
+      "start_time": 3.23,
+      "period_time": 1.0,
+      "id": "spawn_dig"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_dig",
+          "event_name": "despawn"
+        }
+      ],
+      "start_time": 2.93,
+      "period_time": 1.0,
+      "id": "despawn_dig"
+    },
+    {
+      "condition": "1",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":portal_switch_sign"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 2.0,
+      "period_time": 1.0,
+      "id": "portal_switch_sign"
+    },
+    {
+      "condition": "Ppar(\"tavern_shuffle_started\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "tavern_do_shuffle"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 10.0,
+      "period_time": 0.07,
+      "id": "tavern_shuffle"
+    },
+    {
+      "condition": "Ppar(\"tavern_selling_started\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "tavern_sellings"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 10.0,
+      "period_time": 0.15,
+      "id": "tavern_sellings"
+    },
+    {
+      "condition": "Ppar(\"camp_is_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"do_spawn_refugees\", 1)"
+      ],
+      "execute_scripts": [
+        ":refugee_activities"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.2,
+      "period_time": 1.0,
+      "id": "refugee_morning_spawn"
+    },
+    {
+      "condition": "Ppar(\"camp_is_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [
+        "SetPpar(\"do_despawn_refugees\", 1)"
+      ],
+      "execute_scripts": [
+        ":refugee_activities"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.75,
+      "period_time": 1.0,
+      "id": "refugee_evening_despawn"
+    },
+    {
+      "condition": "Ppar(\"camp_is_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":refugee_activities"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.3,
+      "period_time": 0.07,
+      "id": "refugee_roll"
+    },
+    {
+      "condition": "Ppar(\"camp_is_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "refugee_camp_get_food"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.4,
+      "period_time": 0.2,
+      "id": "refugee_get_food"
+    },
+    {
+      "condition": "Ppar(\"camp_is_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":mushrooms_and_berries"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.2,
+      "period_time": 1.0,
+      "id": "refugee_mushrooms_and_berries"
+    },
+    {
+      "condition": "Ppar(\"refugee_farm_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":roll_chickens"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.3,
+      "period_time": 0.035,
+      "id": "roll_chickens"
+    },
+    {
+      "condition": "Ppar(\"refugee_farm_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":refugee_milk"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.2,
+      "period_time": 0.2,
+      "id": "refugee_milk"
+    },
+    {
+      "condition": "Ppar(\"refugee_farm_live\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        ":refugee_eggs"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.2,
+      "period_time": 0.2,
+      "id": "refugee_eggs"
+    },
+    {
+      "condition": "Ppar(\"is_alarich_supply_enabled\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [
+        {
+          "custom_tag": "npc_master_alarich",
+          "event_name": "update_supply"
+        }
+      ],
+      "start_time": 1.0,
+      "period_time": 1.0,
+      "id": "alairch_supply_update"
+    },
+    {
+      "condition": "Ppar(\"has_refugee_cooking_table\")",
+      "condition_1": null,
+      "condition_2": null,
+      "expressions": [],
+      "execute_expressions": [],
+      "execute_scripts": [
+        "check_refugee_cooking"
+      ],
+      "scripts_1": [],
+      "scripts_2": [],
+      "execute_events": [],
+      "start_time": 1.2,
+      "period_time": 1.0,
+      "id": "check_refugee_cooking"
+    }
+  ]
+}

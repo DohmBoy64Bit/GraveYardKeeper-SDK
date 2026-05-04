@@ -57,8 +57,13 @@ namespace GraveSDK.Data.Models
         public ItemType Type { get; set; }
         public float Quality { get; set; }
         public int StackCount { get; set; }
-        public float Durability { get; set; }
+        public float BasePrice { get; set; }
         public bool HasDurability { get; set; }
+        public float DurabilityDecrease { get; set; }  // Rate of loss per use
+        public bool CanBeUsed { get; set; }
+        public bool IsTool { get; set; }
+        public bool IsWeapon { get; set; }
+        public bool IsEquipment { get; set; }
         public Dictionary<string, float> Parameters { get; set; }
         public List<string> OnUseEffects { get; set; }
     }
@@ -77,10 +82,18 @@ namespace GraveSDK.Data.Models
         public List<CraftResult> Output { get; set; }
         public float Difficulty { get; set; }
         public List<string> RequiredPerks { get; set; }
+        public List<string> LinkedBuffs { get; set; }
         public bool IsLocked { get; set; }
+        public bool NeedsUnlock { get; set; }
         public bool CanAutoCraft { get; set; }
+        public bool IsAuto { get; set; }
         public float EnergyCost { get; set; }
         public float TimeCost { get; set; }
+        public float GratitudePointsCost { get; set; }
+        public string TabId { get; set; }
+        public CraftType CraftType { get; set; }
+        public CraftSubType SubType { get; set; }
+        public bool CanCraftMultiple { get; set; }
     }
 }
 ```
@@ -93,8 +106,13 @@ namespace GraveSDK.Data.Models
     {
         public string Id { get; set; }
         public string DisplayName { get; set; }
+        public string Description { get; set; }
         public float Duration { get; set; }
+        public float TickPeriod { get; set; }        // How often effects tick
         public bool IsHidden { get; set; }
+        public bool DoNotShowTimer { get; set; }
+        public float CraftQualityBonus { get; set; }
+        public BuffOverlayType OverlayType { get; set; }
         public Dictionary<string, float> ResourceEffects { get; set; }
         public string CustomIcon { get; set; }
     }
@@ -478,18 +496,25 @@ Exposes the game's built-in SmartExpression scripting system for modders. Includ
 The main entry point for the SDK. It initializes the Harmony patches and the Mod Menu.
 
 ```csharp
-[BepInPlugin("com.gravesdk.core", "GraveYardKeeperSDK", "1.0.0")]
+[BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
 public class Plugin : BaseUnityPlugin
 {
     void Awake()
     {
-        // Load persistent configuration
         ConfigManager.Load();
-        
-        // Initialize Harmony
-        var harmony = new Harmony("com.gravesdk.core");
+        var harmony = new Harmony(PluginInfo.PLUGIN_GUID);
         harmony.PatchAll();
+        ModMenuManager.Initialize();
+        gameObject.AddComponent<GameDataDumper>(); // F10 to dump all game data
+        ModLoader.LoadMods();
     }
+}
+
+public static class PluginInfo
+{
+    public const string PLUGIN_GUID = "com.grave.sdk";  // ← correct GUID
+    public const string PLUGIN_NAME = "GraveYardKeeperSDK";
+    public const string PLUGIN_VERSION = "1.0.0";
 }
 ```
 
@@ -510,6 +535,44 @@ public static class UIRootPatch { ... }
 ### 7.1 ConfigManager
 **Location:** `SDK/Core/ModConfig.cs`
 Handles JSON serialization of `ModConfig`. This ensures settings persist across game restarts and can be edited via the Mod Menu.
+
+> **Serialization Limitation:** `ConfigManager` uses Unity's `JsonUtility` internally, which **cannot serialize `Dictionary<>` or `HashSet<>` fields**. Only primitive fields (`bool`, `float`, `int`, `string`, `KeyCode`) in `ModConfig` will persist across saves. Runtime-only fields like `CustomUnlockConditions`, `CraftDiscounts`, and `ItemNameOverrides` must be repopulated in your mod's `Awake()` — they will not survive a restart.
+
+---
+
+## 8. Tools
+
+### 8.1 GameDataDumper
+**Location:** `SDK/Tools/GameDataDumper.cs`
+Press **F10** in-game (after loading a save) to dump all 34 `GameBalance` data lists to individual JSON files.
+
+**Output:** `Graveyard Keeper/DataDump/*.json`
+
+Dumped lists include: `items`, `crafts`, `objects`, `quests`, `technologies`, `vendors`, `buffs`, `perks`, `workers`, `fishes`, `bodies`, `souls`, `spawners`, and 21 more.
+
+The dumper uses **Newtonsoft.Json** with custom converters for:
+- `SmartExpression` → raw expression string
+- `Item` → `{ id, value, type }`
+- `Vector3`/`Vector2` → `{ x, y, z }`
+- `Color` → hex string (`#RRGGBBAA`)
+- `Sprite` → sprite name string
+- Any `UnityEngine.Object` → object name (fallback)
+
+### 8.2 DLCUnlockPatch
+**Location:** `SDK/Hooks/Engine/DLCUnlockPatch.cs`
+A Harmony patch on `DLCEngine.IsDLCAvailable()` that forces all DLC checks to return `true`. **Disabled by default.**
+
+> **Warning:** This only bypasses the code gate. The actual DLC asset bundles (`gamedata_2.dat`, `gamedata_3.dat`, `gamedata_4.dat`) must be present in `Graveyard Keeper_Data/` or the game will crash when loading DLC zones.
+
+```csharp
+// Enable all DLCs (only works if .dat files exist)
+DLCUnlockPatch.Enabled = true;
+
+// Or selectively:
+DLCUnlockPatch.UnlockStrangerSins = true;   // gamedata_2.dat — Stranger Sins
+DLCUnlockPatch.UnlockGameOfCrone = true;     // gamedata_3.dat — Game of Crone
+DLCUnlockPatch.UnlockBetterSaveSoul = true;  // gamedata_4.dat — Better Save Soul
+```
 
 ---
 

@@ -189,6 +189,12 @@ InteractionRepository.RegisterCallback("make_wish", (wgo) => {
     DialogueRepository.ShowCornerMessage("You toss a coin and make a wish...");
     player.AddMoney(10000);  // Wishes come true!
 });
+
+// IMPORTANT: You must call ProcessCustomInteraction() when the player interacts
+// with the object. Hook this into your mod's Update loop or GameEventRepository:
+GameEventRepository.OnPlayerInteract += (target) => {
+    InteractionRepository.ProcessCustomInteraction(target);
+};
 ```
 
 ### Create a New Merchant
@@ -207,9 +213,11 @@ EconomyRepository.CreateVendorDefinition(
 
 ```csharp
 CameraRepository.Shake(intensity: 3f, duration: 0.5f);
-CameraRepository.Fade(true, duration: 1f);       // Fade to black
-CameraRepository.SetFilter("CameraFilterPack_TV_Old", true);
-CameraRepository.FocusOn(gerry, duration: 2f);
+CameraRepository.FadeOut(duration: 1f);                      // Fade to black
+CameraRepository.FadeIn(duration: 1f);                       // Fade back in
+CameraRepository.SetFilter("CameraFilterPack_TV_Old", true); // Toggle filter
+CameraRepository.FocusOn(gerry, duration: 2f);               // Pan camera to NPC
+CameraRepository.FocusOnPlayer(duration: 1f);                // Return to player
 ```
 
 ---
@@ -265,14 +273,14 @@ All events are fired automatically via Harmony patches. Subscribe in your mod's 
 | `PlayerRepository` | Instance | `GetStats`, `SetEnergy`, `AddMoney`, `AddTechPoints`, `TeleportTo` |
 | `WorldRepository` | Instance | `SpawnObject`, `FindByTag`, `GetNPC`, `GetAllNPCs`, `GetNearestObject` |
 | `NPCRepository` | Instance | `SetSkin`, `TeleportToPlayer`, `AddToKnownNPCs` |
-| `QuestRepository` | Instance | `StartQuest`, `ForceComplete`, `ForceFail`, `CheckKey`, `GetCurrentQuests` |
+| `QuestRepository` | Instance | `StartQuest`, `ForceComplete`, `ForceFail`, `CheckKey`, `GetCurrentQuests`, `WasEverStarted` |
 | `VendorRepository` | Instance | `AddItemToTrade`, `SetMoney` |
 | `DialogueRepository` | Static | `Say`, `SayAsPlayer`, `ShowOptions`, `ShowCornerMessage` |
-| `CameraRepository` | Static | `Shake`, `Fade`, `SetFilter`, `FocusOn` |
+| `CameraRepository` | Static | `Shake`, `FadeOut`, `FadeIn`, `SetFilter`, `FocusOn`, `FocusOnPlayer` |
 | `WorkerRepository` | Static | `SetEfficiency`, `PickUpWorker`, `DeployWorker` |
-| `InteractionRepository` | Static | `AddInteraction`, `RemoveInteraction`, `FireEvent`, `RegisterCallback` |
+| `InteractionRepository` | Static | `AddInteraction`, `RemoveInteraction`, `FireEvent`, `RegisterCallback`, `ProcessCustomInteraction` |
 | `GameEventRepository` | Static | `OnDayChanged`, `OnCraftCompleted`, `OnPlayerInteract`, + 6 more |
-| `EconomyRepository` | Static | `CreateVendorDefinition`, `SetVendorMoney`, `SetItemBasePrice` |
+| `EconomyRepository` | Static | `CreateVendorDefinition`, `GetVendorDefinition`, `GetAllVendors`, `GetVendor`, `SetVendorMoney`, `AddVendorMoney`, `SetVendorTier`, `AddItemToVendor`, `RemoveItemFromVendor`, `GetItemPrice`, `SetDailyIncome`, `SetItemBasePrice` |
 | `SmartExpressionRepository` | Static | `Create`, `EvaluateFloat`, `EvaluateBoolean`, `Execute` |
 | `QuestBuilder` | Builder | `SetStartTrigger`, `SetSuccessTrigger`, `BuildAndRegister` |
 
@@ -298,6 +306,41 @@ GraveYardKeeper/
 - ✅ **Event cleanup** — `ClearAll()` methods on all event buses
 - ✅ **Cached access** — repositories cache data to avoid repeated lookups
 - ✅ **Harmony patches only** — runtime patching, no file modification
+
+## Tools
+
+### GameDataDumper
+Press **F10** in-game (after loading a save) to dump all 34 `GameBalance` data lists to JSON.
+
+```
+Graveyard Keeper/DataDump/
+├── items.json          # All items (600+)
+├── crafts.json         # All recipes
+├── objects.json        # All world objects
+├── quests.json         # All quests with expression triggers
+├── technologies.json   # Full tech tree
+├── vendors.json        # Merchant definitions
+├── _metadata.json      # Dump timestamp & counts
+└── ... (34 files total)
+```
+
+### DLC Unlock Patch
+A Harmony patch on `DLCEngine.IsDLCAvailable()` — **disabled by default**.
+
+> **Warning:** Only bypasses the code gate. The DLC asset bundles (`gamedata_2.dat`, `gamedata_3.dat`, `gamedata_4.dat`) must be present or the game will crash.
+
+```csharp
+DLCUnlockPatch.Enabled = true;               // Enable all DLCs
+DLCUnlockPatch.UnlockStrangerSins = true;    // Stranger Sins
+DLCUnlockPatch.UnlockGameOfCrone = true;     // Game of Crone
+DLCUnlockPatch.UnlockBetterSaveSoul = true;  // Better Save Soul
+```
+
+## Configuration
+
+`ConfigManager` persists settings to `Application.persistentDataPath/GraveSDK_Config.json`.
+
+> **Note:** Uses Unity's `JsonUtility` internally. `Dictionary<>` and `HashSet<>` fields **do not persist** across game restarts. Only primitive fields (`bool`, `float`, `int`, `string`, `KeyCode`) are saved. Re-populate runtime-only fields in your mod's `Awake()`.
 
 ## Contributing
 
