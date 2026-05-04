@@ -56,5 +56,36 @@ namespace GraveSDK.Data.Repositories
         {
             _cache.Clear();
         }
+
+        /// <summary>
+        /// Registers a new quest into the game balance.
+        /// </summary>
+        public void AddQuest(QuestDefinition quest)
+        {
+            if (quest == null) return;
+            string error = GameBalance.me.AddData(quest);
+            if (string.IsNullOrEmpty(error))
+            {
+                GameBalance.me.CreateIDsCache();
+            }
+        }
+
+        /// <summary>
+        /// Forces a quest to be marked as completed in the current save.
+        /// </summary>
+        public void ForceComplete(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return;
+            MainGame.me.save.quests.ForceQuestEnd(questId, true);
+        }
+
+        /// <summary>
+        /// Checks if a quest is currently active.
+        /// </summary>
+        public bool IsQuestActive(string questId)
+        {
+            if (MainGame.me?.save?.quests == null) return false;
+            return MainGame.me.save.quests.IsQuestCurrent(questId);
+        }
     }
 }

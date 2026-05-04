@@ -58,6 +58,11 @@ namespace GraveSDK.Data.Repositories
             return WorldMap.objs.Where(o => o.obj_def.IsNPC()).ToList();
         }
         
+        public List<WorldGameObject> GetAllObjects()
+        {
+            return WorldMap.objs;
+        }
+
         /// <summary>
         /// Gets the nearest object of a certain type to a position.
         /// </summary>

@@ -4,6 +4,7 @@ using GraveSDK.Core;
 using GraveSDK.Data.Repositories;
 using GraveSDK.Data.Models;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ExampleMod
 {
@@ -82,9 +83,10 @@ namespace ExampleMod
             var quests = _questRepo.GetAllQuests();
             Debug.Log($"[ExampleMod] Tracking {quests.Count} total quests.");
 
-            // 4. Buff Information
-            var buffs = _buffRepo.GetAllBuffs();
-            Debug.Log($"[ExampleMod] Total Buffs available: {buffs.Count}");
+            // 4. Vendor Injection
+            var vendorRepo = new VendorRepository();
+            vendorRepo.AddItemToTrade("gerry", "baked_potato", 1, 5); // Add potatoes to Gerry
+            Debug.Log("[ExampleMod] Injected baked_potato into Gerry's shop.");
         }
     }
 
@@ -99,6 +101,7 @@ namespace ExampleMod
         private WorldRepository _world = new WorldRepository();
         private InventoryRepository _inv = new InventoryRepository();
         private SaveRepository _save = new SaveRepository();
+        private NPCRepository _npc = new NPCRepository();
 
         void Update()
         {
@@ -125,6 +128,73 @@ namespace ExampleMod
             {
                 TeleportToGerry();
             }
+
+            // H: Make Player Say Something
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                DialogueRepository.SayAsPlayer("Hello, world! I am modded.");
+            }
+
+            // J: Show Choice Dialog
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                ShowExampleChoices();
+            }
+
+            // U: Screen Shake
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                CameraRepository.Shake(2f, 0.5f);
+            }
+
+            // I: Toggle Cinematic Filter
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                _isFilterOn = !_isFilterOn;
+                CameraRepository.SetFilter("CameraFilterPack_TV_Old", _isFilterOn);
+                _ui.ShowNotification(_isFilterOn ? "Old TV Filter: ON" : "Old TV Filter: OFF");
+            }
+
+            // Y: Boost Zombie Efficiency (if looking at a zombie)
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                BoostNearZombie();
+            }
+        }
+
+        private bool _isFilterOn = false;
+
+        private void ShowExampleChoices()
+        {
+            var options = new List<string> { "I am a friend", "I am a foe", "I am a potato" };
+            var gerry = _world.GetNPC("gerry");
+            if (gerry != null)
+            {
+                DialogueRepository.ShowOptions(gerry, options, (chosen) => {
+                    DialogueRepository.SayAsPlayer("I chose: " + chosen);
+                    if (chosen == "I am a potato")
+                    {
+                        CameraRepository.Shake(5f, 1f);
+                        _ui.ShowMessage("A potato?! PREPOSTEROUS!");
+                    }
+                });
+            }
+        }
+
+        private void BoostNearZombie()
+        {
+            var playerPos = _player.GetPosition();
+            var zombies = _world.GetAllObjects()
+                .Where(w => w.obj_id.StartsWith("worker_zombie") && Vector3.Distance(w.transform.position, playerPos) < 5f)
+                .ToList();
+
+            foreach (var zombie in zombies)
+            {
+                WorkerRepository.SetEfficiency(zombie, 2.0f); // 200% efficiency!
+                DialogueRepository.Say(zombie, "UNLIMITED POWER!", SpeechBubbleGUI.SpeechBubbleType.Talk);
+            }
+
+            if (zombies.Count > 0) _ui.ShowNotification("Zombies boosted to 200%!");
         }
 
         private void GrantStarterKit()

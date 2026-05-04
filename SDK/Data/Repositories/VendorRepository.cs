@@ -52,5 +52,41 @@ namespace GraveSDK.Data.Repositories
         {
             _cache.Clear();
         }
+
+        /// <summary>
+        /// Injects an item into a vendor's trade list at a specific tier.
+        /// </summary>
+        public void AddItemToTrade(string vendorId, string itemId, int tier, int baseCount)
+        {
+            VendorDefinition def = GameBalance.me?.GetData<VendorDefinition>(vendorId);
+            if (def == null) return;
+
+            if (def.count_modificators == null) def.count_modificators = new List<VendorDefinition.CountModificator>();
+            
+            // Check if already exists
+            if (def.count_modificators.Any(m => m.item_name == itemId)) return;
+
+            def.count_modificators.Add(new VendorDefinition.CountModificator
+            {
+                item_name = itemId,
+                tier = tier,
+                base_count = baseCount
+            });
+            
+            def.SortCountModificators();
+        }
+
+        /// <summary>
+        /// Sets the current money of a vendor in the active save.
+        /// </summary>
+        public void SetMoney(string vendorId, float money)
+        {
+            if (WorldMap.objs == null) return;
+            var vendor = WorldMap.objs.FirstOrDefault(o => o.vendor != null && o.vendor.id == vendorId)?.vendor;
+            if (vendor != null)
+            {
+                vendor.cur_money = money;
+            }
+        }
     }
 }

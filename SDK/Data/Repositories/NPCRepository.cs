@@ -54,5 +54,35 @@ namespace GraveSDK.Data.Repositories
         {
             _cache.Clear();
         }
+
+        /// <summary>
+        /// Changes the visual skin of an NPC.
+        /// </summary>
+        public void SetSkin(WorldGameObject npc, string skinId)
+        {
+            if (npc == null || string.IsNullOrEmpty(skinId)) return;
+            npc.ApplySkin(skinId);
+        }
+
+        /// <summary>
+        /// Teleports an NPC to the player's current position.
+        /// </summary>
+        public void TeleportToPlayer(WorldGameObject npc)
+        {
+            if (npc == null || MainGame.me?.player == null) return;
+            npc.tf.position = MainGame.me.player.tf.position;
+        }
+
+        /// <summary>
+        /// Adds an NPC to the player's "Known NPCs" list (the relationship UI).
+        /// </summary>
+        public void AddToKnownNPCs(string npcId)
+        {
+            if (MainGame.me?.save?.known_npcs == null) return;
+            if (!MainGame.me.save.known_npcs.npcs.Any(n => n.npc_id == npcId))
+            {
+                MainGame.me.save.known_npcs.npcs.Add(new KnownNPC { npc_id = npcId });
+            }
+        }
     }
 }

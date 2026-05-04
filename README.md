@@ -211,3 +211,10 @@ For issues or questions, please open a GitHub issue.
 
 *Generated from decompiled source code analysis*
 *Source: Graveyard Keeper v1.0+*
+*SDK Version: v1.2 (Feature Expansion)*
+
+## v1.2 Highlights:
+- **Dialogue System**: Full control over NPC speech, player choices, and cinematic messages.
+- **Camera Effects**: Screen shake, fades, and toggling 100+ built-in cinematic filters.
+- **Worker Management**: Zombie efficiency control and worker item/WGO conversion.
+- **Enhanced Data Repositories**: Programmatic Quest, Vendor, and NPC skin management.

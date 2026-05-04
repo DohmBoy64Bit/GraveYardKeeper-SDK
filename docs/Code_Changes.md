@@ -1,7 +1,7 @@
 # Graveyard Keeper SDK Architecture & Code Changes
 
 ## Last Updated
-2026-05-04 (v1.1 Stability Update)
+2026-05-04 (v1.2 Feature Expansion)
 
 ## Overview
 This document describes the proposed C# SDK/Mod Menu foundation architecture, built using Separation of Concerns (SoC) principles. All code is designed as wrapper classes and Harmony patches - **never modifying base game code directly**.
@@ -432,6 +432,18 @@ Read-only access to NPC metadata and quest progress tracking.
 ### 2.11 Perk & Tech Repositories
 **Location:** `SDK/Data/Repositories/PerkRepository.cs`, `TechRepository.cs`
 Management of player perks and technology tree nodes.
+
+### 2.12 Dialogue Repository
+**Location:** `SDK/Data/Repositories/DialogueRepository.cs`
+High-level API for NPC/Player speech, multi-choice dialogue options, and cinematic notifications.
+
+### 2.13 Camera Repository
+**Location:** `SDK/Data/Repositories/CameraRepository.cs`
+Controls cinematic effects including screen shake, fades, letterboxing, and 100+ built-in `CameraFilterPack` filters.
+
+### 2.14 Worker Repository
+**Location:** `SDK/Data/Repositories/WorkerRepository.cs`
+Specialized management for zombies and workers, including efficiency adjustment and item/WGO transformation.
 
 ---
 
