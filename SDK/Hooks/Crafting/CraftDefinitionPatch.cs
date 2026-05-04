@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
 using UnityEngine;
-using GraveSDK.Utils;
+using GraveSDK.Core;
 using GraveSDK.Data.Models;
 
 namespace GraveSDK.Hooks.Crafting
@@ -22,21 +22,21 @@ namespace GraveSDK.Hooks.Crafting
             ref bool __result)
         {
             // Unlock all crafts if configured
-            if (ModConfig.UnlockAllCrafts && __instance.needs_unlock)
+            if (ConfigManager.Current.UnlockAllCrafts && __instance.needs_unlock)
             {
                 __result = false;
                 return;
             }
 
             // Check custom unlock conditions
-            if (ModConfig.CustomUnlockConditions.TryGetValue(__instance.id, out var condition))
+            if (ConfigManager.Current.CustomUnlockConditions.TryGetValue(__instance.id, out var condition))
             {
                 __result = !condition.IsUnlocked();
                 return;
             }
 
             // Auto-unlock specific craft types
-            if (ModConfig.AutoUnlockCraftTypes.Contains((GraveSDK.Data.Models.CraftType)__instance.craft_type))
+            if (ConfigManager.Current.AutoUnlockCraftTypes.Contains((GraveSDK.Data.Models.CraftType)__instance.craft_type))
             {
                 __result = false;
             }
@@ -59,8 +59,8 @@ namespace GraveSDK.Hooks.Crafting
             ref string __result)
         {
             // Use custom cost calculation if configured
-            if (ModConfig.UseCustomCosts &&
-                ModConfig.CustomCraftCosts.TryGetValue(__instance.id, out var customCost))
+            if (ConfigManager.Current.UseCustomCosts &&
+                ConfigManager.Current.CustomCraftCosts.TryGetValue(__instance.id, out var customCost))
             {
                 __result = customCost.GetDisplayText(wgo, multiplier);
                 return false; // Skip original method
@@ -75,7 +75,7 @@ namespace GraveSDK.Hooks.Crafting
             ref string __result)
         {
             // Add discount indicator if configured
-            if (ModConfig.CraftDiscounts.TryGetValue(__instance.id, out float discountPercent))
+            if (ConfigManager.Current.CraftDiscounts.TryGetValue(__instance.id, out float discountPercent))
             {
                 float discount = 100f - discountPercent;
                 __result += $"\n[color=#00ff00][-{discountPercent}% discount][/color]";
@@ -97,7 +97,7 @@ namespace GraveSDK.Hooks.Crafting
             ref SmartExpression __result)
         {
             // Use custom craft time if configured
-            if (ModConfig.CustomCraftTimes.TryGetValue(__instance.id, out float customTime))
+            if (ConfigManager.Current.CustomCraftTimes.TryGetValue(__instance.id, out float customTime))
             {
                 var expr = new SmartExpression();
                 expr.FromString(customTime.ToString(System.Globalization.CultureInfo.InvariantCulture));
@@ -106,12 +106,12 @@ namespace GraveSDK.Hooks.Crafting
             }
 
             // Apply global speed multiplier
-            if (ModConfig.GlobalCraftSpeedMultiplier != 1f &&
+            if (ConfigManager.Current.GlobalCraftSpeedMultiplier != 1f &&
                 __instance.craft_time != null)
             {
                 var expr = new SmartExpression();
                 // Clone and modify expression
-                expr.FromString(__instance.craft_time.GetRawExpressionString() + $" / {ModConfig.GlobalCraftSpeedMultiplier.ToString(System.Globalization.CultureInfo.InvariantCulture)}");
+                expr.FromString(__instance.craft_time.GetRawExpressionString() + $" / {ConfigManager.Current.GlobalCraftSpeedMultiplier.ToString(System.Globalization.CultureInfo.InvariantCulture)}");
                 __result = expr;
                 return false;
             }
@@ -138,7 +138,7 @@ namespace GraveSDK.Hooks.Crafting
             if (__result == null) return;
 
             // Apply bonus to output quality
-            if (ModConfig.CraftQualityBonus.TryGetValue(__instance.id, out float bonus))
+            if (ConfigManager.Current.CraftQualityBonus.TryGetValue(__instance.id, out float bonus))
             {
                 __result.value_items += bonus;
                 __result.SetProbabilities(
@@ -148,9 +148,9 @@ namespace GraveSDK.Hooks.Crafting
             }
 
             // Apply global bonus
-            if (ModConfig.GlobalCraftQualityBonus != 0f)
+            if (ConfigManager.Current.GlobalCraftQualityBonus != 0f)
             {
-                __result.value_items += ModConfig.GlobalCraftQualityBonus;
+                __result.value_items += ConfigManager.Current.GlobalCraftQualityBonus;
                 __result.SetProbabilities(
                     Mathf.Clamp(__result.value_result, 0f, 1f),
                     Mathf.Clamp(__result.value_result, 1f, 2f) - 1f,
@@ -173,14 +173,14 @@ namespace GraveSDK.Hooks.Crafting
             ref bool __result)
         {
             // Force single-craft for specific items
-            if (ModConfig.ForceSingleCraft.Contains(__instance.id))
+            if (ConfigManager.Current.ForceSingleCraft.Contains(__instance.id))
             {
                 __result = false;
                 return;
             }
 
             // Force multi-craft for specific items
-            if (ModConfig.ForceMultiCraft.Contains(__instance.id))
+            if (ConfigManager.Current.ForceMultiCraft.Contains(__instance.id))
             {
                 __result = true;
                 return;
@@ -202,12 +202,12 @@ namespace GraveSDK.Hooks.Crafting
             ref string __result)
         {
             // Add prefix/suffix to craft names
-            if (ModConfig.CraftNamePrefixes.TryGetValue(__instance.id, out string prefix))
+            if (ConfigManager.Current.CraftNamePrefixes.TryGetValue(__instance.id, out string prefix))
             {
                 __result = prefix + __result;
             }
 
-            if (ModConfig.CraftNameSuffixes.TryGetValue(__instance.id, out string suffix))
+            if (ConfigManager.Current.CraftNameSuffixes.TryGetValue(__instance.id, out string suffix))
             {
                 __result = __result + suffix;
             }

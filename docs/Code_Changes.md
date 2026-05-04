@@ -20,7 +20,7 @@ GraveYardKeeper-SDK/
 │   │   ├── Crafting/
 │   │   ├── UI/
 │   │   ├── Localization/
-│   │   └── Data/
+│   │   └── Engine/
 │   ├── Data/
 │   │   ├── Models/
 │   │   └── Repositories/
@@ -904,27 +904,33 @@ namespace GraveSDK.Utils
 - [x] TechRepository - Full implementation
 - [x] NPCRepository - Full implementation
 - [x] UIRepository - Full implementation
+- [x] WorldRepository - Full implementation
+- [x] InventoryRepository - Full implementation
+- [x] SaveRepository - Full implementation
 - [x] PlayerRepository - Full implementation
 - [x] EnvironmentRepository - Full implementation
-- [ ] LocalizationRepository - To implement
+- [x] LocalizationRepository - Full implementation
 
 ### Phase 3: Harmony Hooks
 - [x] Item description patches
 - [x] Craft unlock patches
-- [ ] Localization patches
-- [ ] UI event patches
+- [x] Localization patches
+- [x] UI event patches
+- [x] MainGame engine hook (`Hooks/Engine/MainGamePatch.cs`)
+- [x] Movement speed hook (`Hooks/Engine/MovementPatch.cs`)
 
 ### Phase 4: Mod Menu UI
-- [ ] Main menu GUI
-- [ ] Item browser
-- [ ] Craft browser
-- [ ] Settings panel
+- [x] Main menu GUI (IMGUI Mod Menu)
+- [x] Item browser
+- [x] Craft browser
+- [x] Settings panel (Placeholder)
 
 ### Phase 5: Advanced Features
-- [ ] Save/load mod config
-- [ ] Custom crafting recipes
-- [ ] Item spawn commands
-- [ ] Game state manipulation
+- [x] Save/load mod config
+- [x] Custom recipe injection (RegistryRepository)
+- [x] Mod loader integration (ModLoader)
+- [x] Item spawn commands (Mod Menu)
+- [x] Game state manipulation (Mod Menu)
 
 ---
 
@@ -991,10 +997,23 @@ To successfully build the SDK, the following assemblies must be referenced:
 - `UnityEngine.IMGUIModule.dll`: Required for the Mod Menu UI.
 
 ### 10.5 Enum Casting
-Since the SDK defines its own type-safe enums (`ItemType`, `CraftType`), explicit casts are required when mapping from the native game enums:
+Since the SDK defines its own type-safe enums (`ItemType`, `CraftType`), explicit casts are required when mapping from the native game enums. For example:
 ```csharp
+var sdkType = (GraveSDK.Data.Models.CraftType)nativeCraft.craft_type;
+```
+This ensures that the SDK remains decoupled from specific game assembly versions where possible.
+
 ### 10.6 Player Money & Data
 Player money is not stored directly in `GameSave`. Instead, it is a property on the `Item` object stored in `WorldGameObject.data`. 
 - **Access**: `MainGame.me.player.data.money`
 - **Type**: `float` (representing bronze as the decimal part)
+
+### 10.7 MultiInventory & GetMultiInventory
+The `WorldGameObject.GetMultiInventory` method requires specific arguments for world zones and player exclusion:
+```csharp
+// To get container-only inventory:
+container.GetMultiInventory(null, "", MultiInventory.PlayerMultiInventory.ExcludePlayer, true, false, false);
 ```
+
+### 10.8 GetParamInt Overload
+The `GetParamInt(string)` method does NOT take a default value. To use a default value, use `(int)GetParam(string, float)` instead.

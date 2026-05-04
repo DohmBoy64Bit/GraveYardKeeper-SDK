@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using HarmonyLib;
 using UnityEngine;
-using GraveSDK.Utils;
+using GraveSDK.Core;
 using GraveSDK.Data.Models;
 
 namespace GraveSDK.Hooks.Inventory
@@ -42,7 +42,7 @@ namespace GraveSDK.Hooks.Inventory
             Item real_item)
         {
             // Check if mod wants to add extra info
-            if (ModConfig.ShowItemMetadata)
+            if (ConfigManager.Current.ShowItemMetadata)
             {
                 string metadata = BuildMetadataString(__instance, real_item);
                 if (!string.IsNullOrEmpty(metadata))
@@ -52,7 +52,7 @@ namespace GraveSDK.Hooks.Inventory
             }
 
             // Check for custom item overrides
-            if (ModConfig.CustomItemDescriptions.TryGetValue(__instance.id, out string customDesc))
+            if (ConfigManager.Current.CustomItemDescriptions.TryGetValue(__instance.id, out string customDesc))
             {
                 __result = customDesc;
             }
@@ -121,19 +121,19 @@ namespace GraveSDK.Hooks.Inventory
             ref string __result)
         {
             // Add prefix if configured
-            if (ModConfig.ItemPrefixes.TryGetValue(__instance.id, out string prefix))
+            if (ConfigManager.Current.ItemPrefixes.TryGetValue(__instance.id, out string prefix))
             {
                 __result = $"{prefix}{__result}";
             }
 
             // Add suffix if configured
-            if (ModConfig.ItemSuffixes.TryGetValue(__instance.id, out string suffix))
+            if (ConfigManager.Current.ItemSuffixes.TryGetValue(__instance.id, out string suffix))
             {
                 __result = $"{__result}{suffix}";
             }
 
             // Override completely if configured
-            if (ModConfig.ItemNameOverrides.TryGetValue(__instance.id, out string overrideName))
+            if (ConfigManager.Current.ItemNameOverrides.TryGetValue(__instance.id, out string overrideName))
             {
                 __result = overrideName;
             }
@@ -155,13 +155,13 @@ namespace GraveSDK.Hooks.Inventory
             bool full_detail,
             ref List<BubbleWidgetData> __result)
         {
-            if (!ModConfig.ShowExtendedTooltips) return;
+            if (!ConfigManager.Current.ShowExtendedTooltips) return;
 
             // Add separator
             __result.Add(new BubbleWidgetSeparatorData());
 
             // Add custom sections
-            if (ModConfig.ExtendedTooltipSections.TryGetValue(__instance.id, out var sections))
+            if (ConfigManager.Current.ExtendedTooltipSections.TryGetValue(__instance.id, out var sections))
             {
                 foreach (var section in sections)
                 {
@@ -174,7 +174,7 @@ namespace GraveSDK.Hooks.Inventory
             }
 
             // Add debug info in dev mode
-            if (ModConfig.DevMode)
+            if (ConfigManager.Current.DevMode)
             {
                 __result.Add(new BubbleWidgetSeparatorData());
                 __result.Add(new BubbleWidgetTextData(
