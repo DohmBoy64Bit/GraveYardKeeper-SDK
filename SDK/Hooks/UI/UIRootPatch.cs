@@ -4,7 +4,7 @@ using UnityEngine;
 namespace GraveSDK.Hooks.UI
 {
     [HarmonyPatch(typeof(UIRoot))]
-    [HarmonyPatch("Broadcast")]
+    [HarmonyPatch("Broadcast", new System.Type[] { typeof(string) })]
     public static class UIRootPatch
     {
         public delegate void UIEventHandler(string funcName);

@@ -13,7 +13,7 @@ namespace GraveSDK.Hooks.Inventory
     /// Use case: Add mod metadata, enhance tooltips, inject custom data
     /// </summary>
     [HarmonyPatch(typeof(ItemDefinition))]
-    [HarmonyPatch("GetItemDescription")]
+    [HarmonyPatch("GetItemDescription", new System.Type[] { typeof(Item) })]
     public static class ItemDescriptionPatch
     {
         /// <summary>
@@ -111,7 +111,7 @@ namespace GraveSDK.Hooks.Inventory
     /// Use case: Rename items, add prefixes/suffixes, localization overrides
     /// </summary>
     [HarmonyPatch(typeof(ItemDefinition))]
-    [HarmonyPatch("GetItemName")]
+    [HarmonyPatch("GetItemName", new System.Type[] { typeof(bool) })]
     public static class ItemNamePatch
     {
         [HarmonyPostfix]
@@ -145,7 +145,7 @@ namespace GraveSDK.Hooks.Inventory
     /// Use case: Custom item behaviors, usage logging, effect modification
     /// </summary>
     [HarmonyPatch(typeof(ItemDefinition))]
-    [HarmonyPatch("GetTooltipData")]
+    [HarmonyPatch("GetTooltipData", new System.Type[] { typeof(Item), typeof(bool) })]
     public static class ItemTooltipPatch
     {
         [HarmonyPostfix]

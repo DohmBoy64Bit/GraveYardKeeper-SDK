@@ -13,7 +13,7 @@ namespace GraveSDK.Hooks.Crafting
     /// Use case: Unlock all crafts, reduce costs, add custom recipes
     /// </summary>
     [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("IsLocked")]
+    [HarmonyPatch("IsLocked", new System.Type[] {  })]
     public static class CraftLockPatch
     {
         [HarmonyPostfix]
@@ -48,7 +48,7 @@ namespace GraveSDK.Hooks.Crafting
     /// Use case: Reduce material costs, allow alternative materials
     /// </summary>
     [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("GetSpendTxt")]
+    [HarmonyPatch("GetSpendTxt", new System.Type[] { typeof(WorldGameObject), typeof(int) })]
     public static class CraftCostPatch
     {
         [HarmonyPrefix]
@@ -88,7 +88,7 @@ namespace GraveSDK.Hooks.Crafting
     /// Use case: Faster crafting, instant crafts, time scaling
     /// </summary>
     [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("craft_time")]
+    [HarmonyPatch("craft_time", MethodType.Getter)]
     public static class CraftTimePatch
     {
         [HarmonyPrefix]
@@ -125,7 +125,7 @@ namespace GraveSDK.Hooks.Crafting
     /// Use case: Bonus yields, quality improvements, extra items
     /// </summary>
     [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("GetMultiqualityResult")]
+    [HarmonyPatch("GetMultiqualityResult", new System.Type[] { typeof(List<string>), typeof(List<string>) })]
     public static class CraftOutputPatch
     {
         [HarmonyPostfix]
@@ -164,7 +164,7 @@ namespace GraveSDK.Hooks.Crafting
     /// Use case: Special requirements, conditional crafting
     /// </summary>
     [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("CanCraftMultiple")]
+    [HarmonyPatch("CanCraftMultiple", new System.Type[] {  })]
     public static class CraftValidationPatch
     {
         [HarmonyPostfix]
@@ -193,7 +193,7 @@ namespace GraveSDK.Hooks.Crafting
     /// Use case: Custom output, side effects, logging
     /// </summary>
     [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("GetNameNonLocalized")]
+    [HarmonyPatch("GetNameNonLocalized", new System.Type[] {  })]
     public static class CraftNamePatch
     {
         [HarmonyPostfix]

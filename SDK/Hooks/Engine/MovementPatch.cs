@@ -5,7 +5,7 @@ using UnityEngine;
 namespace GraveSDK.Hooks.Engine
 {
     [HarmonyPatch(typeof(MovementComponent))]
-    [HarmonyPatch("UpdateMovement")]
+    [HarmonyPatch("UpdateMovement", new System.Type[] { typeof(Vector2), typeof(float) })]
     public static class MovementPatch
     {
         [HarmonyPrefix]

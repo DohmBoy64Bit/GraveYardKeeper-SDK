@@ -4,7 +4,7 @@ using GraveSDK.Data.Repositories;
 namespace GraveSDK.Hooks.Localization
 {
     [HarmonyPatch(typeof(global::Localization))]
-    [HarmonyPatch("Get")]
+    [HarmonyPatch("Get", new System.Type[] { typeof(string), typeof(bool) })]
     public static class LocalizationPatch
     {
         // Custom dictionary for mod-injected strings to avoid polluting the main game dictionary

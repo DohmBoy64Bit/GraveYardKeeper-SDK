@@ -15,6 +15,10 @@ GraveYardKeeper-SDK/
 │   ├── Wiki_Findings.md       # Extracted game data
 │   └── Code_Changes.md        # This file
 ├── SDK/
+│   ├── Core/
+│   │   ├── Plugin.cs          # BepInEx Entry Point
+│   │   ├── ConfigManager.cs   # Persistent Configuration
+│   │   └── ModLoader.cs       # External Mod Loading
 │   ├── Hooks/
 │   │   ├── Inventory/
 │   │   ├── Crafting/
@@ -431,33 +435,83 @@ namespace GraveSDK.Data.Repositories
 }
 ```
 
-### 2.3 Localization Wrapper
+### 2.3 Localization Repository
 **Location:** `SDK/Data/Repositories/LocalizationRepository.cs`
+High-level wrapper for the game's `Localization` class, supporting safe key retrieval and language switching.
+
+### 2.4 World Repository
+**Location:** `SDK/Data/Repositories/WorldRepository.cs`
+Handles entity spawning, NPC finding, and world object search by tag or ID.
+
+### 2.5 Inventory Repository
+**Location:** `SDK/Data/Repositories/InventoryRepository.cs`
+Unified interface for player bags, equipped items, and nearest chest/container access.
+
+### 2.6 Save Repository
+**Location:** `SDK/Data/Repositories/SaveRepository.cs`
+Handles manual persistence, tech/craft unlocking, and custom game flag management.
+
+### 2.7 Player Repository
+**Location:** `SDK/Data/Repositories/PlayerRepository.cs`
+Direct access to player stats (Health, Energy, Money, Tech Points) and teleportation.
+
+### 2.8 Registry Repository
+**Location:** `SDK/Data/Repositories/RegistryRepository.cs`
+High-level API for modders to inject custom `ItemDefinition` and `CraftDefinition` into the game.
+
+### 2.9 UI Repository
+**Location:** `SDK/Data/Repositories/UIRepository.cs`
+Window management, dialog popups, and HUD control.
+
+### 2.10 NPC & Quest Repositories
+**Location:** `SDK/Data/Repositories/NPCRepository.cs`, `QuestRepository.cs`
+Read-only access to NPC metadata and quest progress tracking.
+
+### 2.11 Perk & Tech Repositories
+**Location:** `SDK/Data/Repositories/PerkRepository.cs`, `TechRepository.cs`
+Management of player perks and technology tree nodes.
+
+---
+
+## 6. SDK Lifecycle & Entry Point
+
+### 6.1 BepInEx Plugin (Plugin.cs)
+**Location:** `SDK/Core/Plugin.cs`
+The main entry point for the SDK. It initializes the Harmony patches and the Mod Menu.
+
 ```csharp
-namespace GraveSDK.Data.Repositories
+[BepInPlugin("com.gravesdk.core", "GraveYardKeeperSDK", "1.0.0")]
+public class Plugin : BaseUnityPlugin
 {
-    public class LocalizationRepository
+    void Awake()
     {
-        public string GetText(string key, string fallback = null)
-        {
-            string result = Localization.Get(key, false);
-            return result == key ? (fallback ?? key) : result;
-        }
+        // Load persistent configuration
+        ConfigManager.Load();
         
-        public void SetLanguage(string languageCode)
-        {
-            Localization.language = languageCode;
-        }
-        
-        public string[] GetAvailableLanguages()
-        {
-            return Localization.knownLanguages;
-        }
-        
-        public string CurrentLanguage => Localization.language;
+        // Initialize Harmony
+        var harmony = new Harmony("com.gravesdk.core");
+        harmony.PatchAll();
     }
 }
 ```
+
+### 6.2 Harmony Patching Standards
+To avoid `AmbiguousMatchException` in Unity's Mono environment, all patches must specify parameter types when targeting overloaded methods.
+
+**Example:**
+```csharp
+[HarmonyPatch(typeof(UIRoot))]
+[HarmonyPatch("Broadcast", new System.Type[] { typeof(string) })]
+public static class UIRootPatch { ... }
+```
+
+---
+
+## 7. Configuration System
+
+### 7.1 ConfigManager
+**Location:** `SDK/Core/ModConfig.cs`
+Handles JSON serialization of `ModConfig`. This ensures settings persist across game restarts and can be edited via the Mod Menu.
 
 ---
 

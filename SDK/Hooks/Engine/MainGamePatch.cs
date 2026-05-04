@@ -6,7 +6,7 @@ using UnityEngine;
 namespace GraveSDK.Hooks.Engine
 {
     [HarmonyPatch(typeof(MainGame))]
-    [HarmonyPatch("GeneralInit")]
+    [HarmonyPatch("GeneralInit", new System.Type[] {  })]
     public static class MainGamePatch
     {
         [HarmonyPostfix]
