@@ -24,6 +24,8 @@ graveyard-keeper-sdk/
 │   │   └── ModMenu/           # Main mod menu implementation
 │   └── Utils/
 │       └── Extensions/        # Helper extensions
+├── Template/                  # Mod Template Project
+│   └── GraveYardKeeperModTemplate/
 └── README.md
 ```
 
@@ -46,7 +48,10 @@ Graveyard Keeper\BepInEx\plugins\
 ```
 
 ### 4. Use Mod Menu
-Press **F1** in-game to toggle mod menu
+Press **F1** in-game to toggle mod menu.
+
+### 5. Create Your Own Mod
+Check the [Template](Template/GraveYardKeeperModTemplate/) folder for a comprehensive example mod demonstrating all SDK features.
 
 ## Documentation Index
 

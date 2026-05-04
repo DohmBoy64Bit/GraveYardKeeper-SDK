@@ -1,7 +1,7 @@
 # Graveyard Keeper Wiki Findings
 
 ## Last Updated
-2026-05-04
+2026-05-04 (v1.1 Stability Update)
 
 ## Data Repository Overview
 This document contains extracted hardcoded values, enums, data structures, and initialization lists from the Graveyard Keeper decompiled source code (Assembly-CSharp).

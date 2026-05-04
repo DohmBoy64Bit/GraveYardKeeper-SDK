@@ -1,7 +1,7 @@
 # Graveyard Keeper SDK Architecture & Code Changes
 
 ## Last Updated
-2026-05-04
+2026-05-04 (v1.1 Stability Update)
 
 ## Overview
 This document describes the proposed C# SDK/Mod Menu foundation architecture, built using Separation of Concerns (SoC) principles. All code is designed as wrapper classes and Harmony patches - **never modifying base game code directly**.
@@ -33,6 +33,8 @@ GraveYardKeeper-SDK/
 │   │   └── ModMenu/
 │   └── Utils/
 │       └── Extensions/
+├── Template/                  # Mod Template Project
+│   └── GraveYardKeeperModTemplate/
 └── README.md
 ```
 
@@ -389,51 +391,11 @@ namespace GraveSDK.Data.Repositories
 
 ### 2.2 Craft Repository
 **Location:** `SDK/Data/Repositories/CraftRepository.cs`
-```csharp
-namespace GraveSDK.Data.Repositories
-{
-    public class CraftRepository
-    {
-        public CraftModel GetCraft(string craftId)
-        {
-            CraftDefinition def = GameBalance.me.GetData<CraftDefinition>(craftId);
-            if (def == null) return null;
-            
-            return new CraftModel
-            {
-                Id = def.id,
-                DisplayName = def.GetNameNonLocalized(),
-                Needs = ConvertItems(def.needs),
-                Output = ConvertItems(def.output),
-                Difficulty = def.difficulty,
-                RequiredPerks = def.linked_perks,
-                IsLocked = def.IsLocked(),
-                CanAutoCraft = def.is_auto,
-                EnergyCost = GetEnergyCost(def),
-                TimeCost = GetTimeCost(def),
-                CraftType = (GraveSDK.Data.Models.CraftType)def.craft_type,
-                SubType = (GraveSDK.Data.Models.CraftSubType)def.sub_type
-            };
-        }
-        
-        public List<CraftModel> GetCraftsForItem(string itemId)
-        {
-            return GameBalance.me.craft_data
-                .Where(c => c.needs.Any(n => n.id == itemId))
-                .Select(c => GetCraft(c.id))
-                .ToList();
-        }
-        
-        public List<CraftModel> GetAllCrafts()
-        {
-            return GameBalance.me.craft_data
-                .Select(c => GetCraft(c.id))
-                .Where(c => c != null)
-                .ToList();
-        }
-    }
-}
-```
+Includes a safety prefix hook on `GetNameNonLocalized` to prevent `IndexOutOfRangeException` caused by malformed Craft IDs in the base game.
+
+### 2.3 Buff Repository
+**Location:** `SDK/Data/Repositories/BuffRepository.cs`
+Hardened with try-catch blocks for `SmartExpression` evaluation and null-safe localization fallbacks. This prevents initialization crashes when game data is accessed before the player context is fully ready.
 
 ### 2.3 Localization Repository
 **Location:** `SDK/Data/Repositories/LocalizationRepository.cs`
