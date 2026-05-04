@@ -160,6 +160,26 @@ namespace GraveSDK.Hooks.Crafting
     [HarmonyPatch("GetNameNonLocalized", new System.Type[] {  })]
     public static class CraftNamePatch
     {
+        [HarmonyPrefix]
+        public static bool GetNameNonLocalized_Prefix(
+            CraftDefinition __instance,
+            ref string __result)
+        {
+            // Safety check: The game's original code crashes with IndexOutOfRangeException 
+            // if the ID contains ':' but has fewer than 3 parts (Split(':')[2]).
+            if (__instance.id.Contains(":") && !__instance.id.StartsWith("mix:mf_alchemy"))
+            {
+                string[] parts = __instance.id.Split(':');
+                if (parts.Length < 3)
+                {
+                    // Original would crash here. Return ID as fallback.
+                    __result = __instance.id;
+                    return false; // Skip original method
+                }
+            }
+            return true; // Run original method
+        }
+
         [HarmonyPostfix]
         public static void GetNameNonLocalized_Postfix(
             CraftDefinition __instance,
