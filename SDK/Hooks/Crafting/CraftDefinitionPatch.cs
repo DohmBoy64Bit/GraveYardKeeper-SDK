@@ -83,42 +83,6 @@ namespace GraveSDK.Hooks.Crafting
         }
     }
 
-    /// <summary>
-    /// Hook to modify craft time and speed
-    /// Use case: Faster crafting, instant crafts, time scaling
-    /// </summary>
-    [HarmonyPatch(typeof(CraftDefinition))]
-    [HarmonyPatch("craft_time", MethodType.Getter)]
-    public static class CraftTimePatch
-    {
-        [HarmonyPrefix]
-        public static bool CraftTime_Getter_Prefix(
-            CraftDefinition __instance,
-            ref SmartExpression __result)
-        {
-            // Use custom craft time if configured
-            if (ConfigManager.Current.CustomCraftTimes.TryGetValue(__instance.id, out float customTime))
-            {
-                var expr = new SmartExpression();
-                expr.FromString(customTime.ToString(System.Globalization.CultureInfo.InvariantCulture));
-                __result = expr;
-                return false;
-            }
-
-            // Apply global speed multiplier
-            if (ConfigManager.Current.GlobalCraftSpeedMultiplier != 1f &&
-                __instance.craft_time != null)
-            {
-                var expr = new SmartExpression();
-                // Clone and modify expression
-                expr.FromString(__instance.craft_time.GetRawExpressionString() + $" / {ConfigManager.Current.GlobalCraftSpeedMultiplier.ToString(System.Globalization.CultureInfo.InvariantCulture)}");
-                __result = expr;
-                return false;
-            }
-
-            return true;
-        }
-    }
 
     /// <summary>
     /// Hook to modify craft output
