@@ -457,6 +457,18 @@ Reactive event bus providing C# events for game lifecycle (OnDayChanged, OnPlaye
 **Location:** `SDK/Data/Repositories/EconomyRepository.cs`
 Full vendor/economy management including creating new VendorDefinitions, manipulating vendor tiers, money, inventory, and global item pricing.
 
+### 2.18 SmartExpression Repository & QuestBuilder
+**Location:** `SDK/Data/Repositories/SmartExpressionRepository.cs`
+Exposes the game's built-in SmartExpression scripting system for modders. Includes:
+- **SmartExpressionRepository**: Create, evaluate, and execute SmartExpression strings (e.g., `Ppar("money")`, `SetPpar("hp", 100)`, `GetDay() > 10`)
+- **QuestBuilder**: Builder pattern for creating QuestDefinitions with custom SmartExpression triggers:
+  - `SetStartTrigger(expr)` — condition for quest auto-start
+  - `SetSuccessTrigger(expr)` — condition for quest completion (e.g., `"Ppar(\"slimes_killed\") >= 5"`)
+  - `SetFailTrigger(expr)` — condition for quest failure (e.g., `"GetDay() > 20"`)
+  - `SetStartKey(keys)` — game event keys that trigger quest start (e.g., `"interact_gerry"`, `"end_of_day"`)
+  - `AddSuccessExpression(expr)` — side-effects on success (e.g., `"AddPpar(\"money\", 5000)"`)
+  - `BuildAndRegister()` — builds and injects the quest into GameBalance
+
 ---
 
 ## 6. SDK Lifecycle & Entry Point
